@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import logo from './assets/logo.png';
 
 function App() {
   const [file, setFile] = useState(null);
@@ -75,9 +76,7 @@ function App() {
 
   return (
     <div className={`App ${questionRight}`}>
-      <h1>Quest</h1>
-      <h3>See if you get all the questions</h3>
-      <p>Red is false, Green is true</p>
+      <img style={{width: 256, height: 256}} src={logo}/>
       {!file &&<pre>
         {`
           {
@@ -105,20 +104,23 @@ function App() {
           <h2>{file.title}</h2>
           <h3>{rightAnswers} / {QLength}</h3>
           <div className='questions'>
-            <div className={`question ${rotation == 45?"rot-true":""} ${rotation == -45?"rot-false":""} ${questionRight}`}>
+            <div className={`question ${rotation == 45?"rot-true":""} ${rotation == -45?"rot-false":""} ${questionRight}`}
+            style={{borderRightWidth: rotation == 45 ? 40 : 20,
+               borderLeftWidth: rotation == -45 ? 40 : 20,
+            }}>
             <div className='answers'>
-                  <div className='answer' style={{backgroundColor:"#f00"}} 
-                  onMouseEnter={()=>setrotation(-45)} onMouseLeave={()=>setrotation(0)}
+                  <div className='answer' style={{backgroundColor:"var(--false)"}} 
+                  onPointerEnter={()=>setrotation(-45)}
                   onClick={()=>Answer("Hamis",file.questions[current])}></div>
 
-                  <div className='answer' style={{backgroundColor:"#0f0"}} 
-                  onMouseEnter={()=>setrotation(45)} onMouseLeave={()=>setrotation(0)}
+                  <div className='answer' style={{backgroundColor:"var(--true)"}} 
+                  onPointerEnter={()=>setrotation(45)}
                   onClick={()=>Answer("Igaz",file.questions[current])}></div>
                 </div>
-                <p style={{filter: "drop-shadow(0px 0px 5px #fff)"}}>{file.questions[current].question}</p>
+                <p style={{color: "#1aa2dc"}}>{file.questions[current].question}</p>
                
                 {file.questions[current].reason && showReason && 
-                  <p>Indoklás: {file.questions[current].reason}</p>}
+                  <p style={{color: "#1aa2dc"}}>Indoklás: {file.questions[current].reason}</p>}
               </div>
           </div>
         </div>
