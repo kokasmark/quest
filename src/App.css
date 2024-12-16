@@ -10,6 +10,7 @@ body{
   background-color: #09425a;
   color: #1aa2dc;
   user-select: none;
+  overflow: hidden;
 }
 footer{
   position: fixed;

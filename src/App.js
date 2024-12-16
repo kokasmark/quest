@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import logo from './assets/logo.png';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import EmojiParticle from './Particles';
 
 function App() {
   const [file, setFile] = useState(null);
@@ -13,6 +14,28 @@ function App() {
   const [current,setCurrent] = useState(0)
   const [showResult,setshowResult] = useState(false)
   const [questionNum, setquestionNum] = useState(30);
+  const [particles, setParticles] = useState([]);
+
+  const spawnParticles = (answerCorrect) => {
+    const emoji = answerCorrect ? "👍" : "👎";
+    const newParticles = Array.from({ length: 10 }, (_, index) => {
+      const randomX = (index * window.innerWidth/10);
+      const randomY = (300+Math.random() * 100);
+      return (
+        <EmojiParticle
+          key={Date.now() + index}
+          emoji={emoji}
+          startX={randomX}
+          startY={randomY}
+        />
+      );
+    });
+
+    setParticles(newParticles);
+    setTimeout(() => {
+      setParticles([])
+    }, 2000);
+  }
 
 
   const jsonCode = `{
@@ -64,8 +87,10 @@ function App() {
     if (answer === question.answer) {
       setQuestionRight("success");
       setrightAnswers(rightAnswers + 1);
+      spawnParticles(true)
     } else {
       setQuestionRight("fail");
+      spawnParticles(false,)
     }
     setShowReason(true);
     setTimeout(() => {
@@ -134,6 +159,10 @@ function App() {
         }}>
           <h1>{rightAnswers} / {QLength}</h1>
         </div>}
+        
+        <div className="particle-container">
+        {particles}
+        </div>
 
         <footer>
           <a href='https://github.com/kokasmark/quest' target='blank' style={{color: "#1aa2dc", textDecoration: 'none'}}>Quest Github</a>
