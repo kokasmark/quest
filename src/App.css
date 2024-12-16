@@ -85,7 +85,6 @@ input[type="file"]::file-selector-button:active {
 
 .question.success{
   background-color: greenyellow;
-  color: rgb(201, 201, 201);
 }
 
 .question.success .answers{
