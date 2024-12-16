@@ -132,7 +132,10 @@ function App() {
           <h1>{rightAnswers} / {QLength}</h1>
         </div>}
 
-        <footer>https://github.com/kokasmark/quest</footer>
+        <footer>
+          <a href='https://github.com/kokasmark/quest' target='blank' style={{color: "#1aa2dc", textDecoration: 'none'}}>Quest Github</a>
+          <a href='https://github.com/kokasmark' target='blank' style={{color: "#1aa2dc", textDecoration: 'none'}}>Kokas Márk</a>
+          </footer>
     </div>
   );
 }

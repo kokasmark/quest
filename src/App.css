@@ -19,6 +19,10 @@ footer{
   backdrop-filter: brightness(0.8);
   padding: 5px;
   border-radius: 10px 10px 0px 0px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 input[type="file"]::file-selector-button {
   border-radius: 4px;
