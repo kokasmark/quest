@@ -131,6 +131,8 @@ function App() {
         }}>
           <h1>{rightAnswers} / {QLength}</h1>
         </div>}
+
+        <footer>https://github.com/kokasmark/quest</footer>
     </div>
   );
 }
