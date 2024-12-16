@@ -8,9 +8,10 @@ function App() {
   const [rightAnswers, setrightAnswers] = useState(0)
   const [QLength, setQLength] = useState(0)
   const [showReason,setShowReason] = useState(false)
+  const [current,setCurrent] = useState(0)
 
   const parseQuestions = (event) => {
-    const file = event.target.files[0]; // Get the file from the input
+    const file = event.target.files[0];
 
     if (file) {
       const reader = new FileReader();
@@ -19,13 +20,18 @@ function App() {
         try {
           const parsedData = JSON.parse(e.target.result);
           setQLength(Object.keys(parsedData.questions).length);
-          setFile(parsedData); // Load the parsed JSON into the state
+          setFile(parsedData); 
+          setQuestionRight("");
+          setrotation(0);
+          setShowReason(false);
+          setrightAnswers(0);
+          setCurrent(0);
         } catch (error) {
           console.error('Error parsing the JSON file:', error);
         }
       };
 
-      reader.readAsText(file); // Read the file as text
+      reader.readAsText(file);
     }
   };
 
@@ -40,11 +46,12 @@ function App() {
     setTimeout(() => {
       setFile((prevFile) => ({
         ...prevFile,
-        questions: prevFile.questions.filter((q) => q !== question) // Remove the answered question
+        questions: prevFile.questions.filter((q) => q !== question)
       }));
       setQuestionRight("");
       setrotation(0);
       setShowReason(false);
+      setCurrent(current+1);
     }, 2000);
    
   };
@@ -63,24 +70,20 @@ function App() {
           <h2>{file.title}</h2>
           <h3>{rightAnswers} / {QLength}</h3>
           <div className='questions'>
-            {file.questions.map((question,index) => (
-              <div key={index} className={`question ${rotation == 45?"rot-true":""} ${rotation == -45?"rot-false":""} ${questionRight}`}>
-                <p>{question.question}</p>
+            <div className={`question ${rotation == 45?"rot-true":""} ${rotation == -45?"rot-false":""} ${questionRight}`}>
+                <p>{file.questions[current].question}</p>
                 <div className='answers'>
                   <div className='answer' style={{backgroundColor:"#f008"}} 
                   onMouseEnter={()=>setrotation(-45)} onMouseLeave={()=>setrotation(0)}
-                  onClick={()=>Answer("Hamis",question)}></div>
+                  onClick={()=>Answer("Hamis",file.questions[current])}></div>
 
                   <div className='answer' style={{backgroundColor:"#0f08"}} 
                   onMouseEnter={()=>setrotation(45)} onMouseLeave={()=>setrotation(0)}
-                  onClick={()=>Answer("Igaz",question)}></div>
+                  onClick={()=>Answer("Igaz",file.questions[current])}></div>
                 </div>
-                {question.reason && showReason && 
-                  <p>Indoklás: {question.reason}</p>}
+                {file.questions[current].reason && showReason && 
+                  <p>Indoklás: {file.questions[current].reason}</p>}
               </div>
-            ))
-
-            }
           </div>
         </div>
       )}
