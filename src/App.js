@@ -88,7 +88,7 @@ function App() {
           }`}
       </pre>}
       <br />
-      <input type="file" onChange={parseQuestions} />
+      {!file &&<input type="file" onChange={parseQuestions} />}
       
       {/* Display the parsed file data */}
       {file && (

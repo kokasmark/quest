@@ -41,6 +41,8 @@ input[type="file"]::file-selector-button:active {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-top: 2px white solid;
+  width: 80%;
 }
 .questions{
   position: relative;
