@@ -26,12 +26,15 @@ input[type="file"]::file-selector-button:active {
 }
 
 .App {
-  text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
 }
+
 
 .file{
   display: flex;
@@ -65,6 +68,8 @@ input[type="file"]::file-selector-button:active {
   transition: 1s;
 
   font-weight: bolder;
+
+  border: 2px white solid;
 }
 .question:hover .answers{
   opacity: 1;

@@ -9,18 +9,25 @@ function App() {
   const [QLength, setQLength] = useState(0)
   const [showReason,setShowReason] = useState(false)
   const [current,setCurrent] = useState(0)
+  const [showResult,setshowResult] = useState(false)
 
   const parseQuestions = (event) => {
     const file = event.target.files[0];
-
+  
     if (file) {
       const reader = new FileReader();
-
+  
       reader.onload = (e) => {
         try {
           const parsedData = JSON.parse(e.target.result);
-          setQLength(Object.keys(parsedData.questions).length);
-          setFile(parsedData); 
+  
+          const randomizedQuestions = parsedData.questions.sort(() => Math.random() - 0.5);
+  
+          setQLength(randomizedQuestions.length);
+          setFile({
+            ...parsedData,
+            questions: randomizedQuestions,
+          });
           setQuestionRight("");
           setrotation(0);
           setShowReason(false);
@@ -30,10 +37,11 @@ function App() {
           console.error('Error parsing the JSON file:', error);
         }
       };
-
+  
       reader.readAsText(file);
     }
   };
+  
 
   const Answer = (answer, question) => {
     if (answer === question.answer) {
@@ -44,24 +52,42 @@ function App() {
     }
     setShowReason(true);
     setTimeout(() => {
-      setFile((prevFile) => ({
-        ...prevFile,
-        questions: prevFile.questions.filter((q) => q !== question)
-      }));
       setQuestionRight("");
       setrotation(0);
       setShowReason(false);
-      setCurrent(current+1);
+
+      if (current < Object.keys(file.questions).length-1){
+        setCurrent(current+1);
+      }else{
+        setFile(null);
+        setshowResult(true);
+        setTimeout(() => {
+          setshowResult(false);
+        }, 3000);
+      }
     }, 2000);
    
   };
   
 
   return (
-    <div className="App">
+    <div className={`App ${questionRight}`}>
       <h1>Quest</h1>
       <h3>See if you get all the questions</h3>
-
+      {!file &&<pre>
+        {`
+          {
+            "title": "Questionaire title",
+            "questions": [
+                {
+                "question": "The grass is green?",
+                "answer": "Igaz",
+                "reason": "Cuz it is"
+                }
+            ]
+          }`}
+      </pre>}
+      <br />
       <input type="file" onChange={parseQuestions} />
       
       {/* Display the parsed file data */}
@@ -87,6 +113,12 @@ function App() {
           </div>
         </div>
       )}
+      {showResult && 
+        <div style={{position: "absolute", width:"100%",height: "100%", backgroundColor: rightAnswers/QLength > 0.5 ? "greenyellow" : "red",
+          display: "flex",alignItems: "center", justifyContent: "center"
+        }}>
+          <h1>{rightAnswers} / {QLength}</h1>
+        </div>}
     </div>
   );
 }
