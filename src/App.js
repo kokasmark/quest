@@ -10,6 +10,7 @@ function App() {
   const [showReason,setShowReason] = useState(false)
   const [current,setCurrent] = useState(0)
   const [showResult,setshowResult] = useState(false)
+  const [questionNum, setquestionNum] = useState(30);
 
   const parseQuestions = (event) => {
     const file = event.target.files[0];
@@ -21,8 +22,10 @@ function App() {
         try {
           const parsedData = JSON.parse(e.target.result);
   
-          const randomizedQuestions = parsedData.questions.sort(() => Math.random() - 0.5);
-  
+          const randomizedQuestions = Object.values(parsedData.questions)
+          .sort(() => Math.random() - 0.5) 
+          .slice(0, Math.min(questionNum,Object.values(parsedData.questions).length));
+      
           setQLength(randomizedQuestions.length);
           setFile({
             ...parsedData,
@@ -88,6 +91,11 @@ function App() {
           }`}
       </pre>}
       <br />
+      {!file &&<div style={{display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center',justifyContent: 'center'}}>
+        <h1 className='btn' onClick={()=>setquestionNum(questionNum+1)}>+</h1>
+        <h2>{questionNum} questions</h2>
+        <h1 className='btn' onClick={()=>setquestionNum(questionNum-1)}>-</h1>
+      </div>}
       {!file &&<input type="file" onChange={parseQuestions} />}
       
       {/* Display the parsed file data */}
