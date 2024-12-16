@@ -46,6 +46,32 @@ input[type="file"]::file-selector-button:active {
   background-color: #e5e7eb;
 }
 
+.code{
+  border-radius: 30px;
+  background-color: transparent !important;
+  border: 2px solid white;
+  overflow: visible;
+  max-width: 300px;
+  overflow: hidden !important;
+}
+.code::before{
+  content: "Example Quest JSON";
+  background-color: #09425a;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  transform: translate(10px,-35px);
+  text-shadow: none !important;
+  color: white !important;
+}
+.code .token{
+  background-color: transparent !important;
+  text-shadow: none !important;
+  filter: brightness(1.5);
+  font-size: 13px !important;
+}
+
 .App {
   display: flex;
   align-items: center;
