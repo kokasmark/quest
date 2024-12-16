@@ -77,6 +77,7 @@ function App() {
     <div className={`App ${questionRight}`}>
       <h1>Quest</h1>
       <h3>See if you get all the questions</h3>
+      <p>Red is false, Green is true</p>
       {!file &&<pre>
         {`
           {
@@ -105,16 +106,17 @@ function App() {
           <h3>{rightAnswers} / {QLength}</h3>
           <div className='questions'>
             <div className={`question ${rotation == 45?"rot-true":""} ${rotation == -45?"rot-false":""} ${questionRight}`}>
-                <p>{file.questions[current].question}</p>
-                <div className='answers'>
-                  <div className='answer' style={{backgroundColor:"#f008"}} 
+            <div className='answers'>
+                  <div className='answer' style={{backgroundColor:"#f00"}} 
                   onMouseEnter={()=>setrotation(-45)} onMouseLeave={()=>setrotation(0)}
                   onClick={()=>Answer("Hamis",file.questions[current])}></div>
 
-                  <div className='answer' style={{backgroundColor:"#0f08"}} 
+                  <div className='answer' style={{backgroundColor:"#0f0"}} 
                   onMouseEnter={()=>setrotation(45)} onMouseLeave={()=>setrotation(0)}
                   onClick={()=>Answer("Igaz",file.questions[current])}></div>
                 </div>
+                <p style={{filter: "drop-shadow(0px 0px 5px #fff)"}}>{file.questions[current].question}</p>
+               
                 {file.questions[current].reason && showReason && 
                   <p>Indoklás: {file.questions[current].reason}</p>}
               </div>

@@ -56,8 +56,8 @@ input[type="file"]::file-selector-button:active {
   left: 0px;
   background-color: white;
   width: 20vw;
-  min-width: 300px;
-  max-width: 400px;
+  min-width: 250px;
+  max-width: 350px;
   height: 200px;
   padding: 10px;
   color: black;
@@ -71,10 +71,8 @@ input[type="file"]::file-selector-button:active {
 
   font-weight: bolder;
 
-  border: 2px white solid;
-}
-.question:hover .answers{
-  opacity: 1;
+  border-left: red 20px solid;
+  border-right: greenyellow 20px solid;
 }
 
 .question.rot-true{
@@ -87,6 +85,7 @@ input[type="file"]::file-selector-button:active {
 
 .question.success{
   background-color: greenyellow;
+  color: rgb(201, 201, 201);
 }
 
 .question.success .answers{
