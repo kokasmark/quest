@@ -22,7 +22,6 @@ function App() {
   const [particles, setParticles] = useState([]);
   const timeoutRef = useRef(null); // Store the timeout ID
   const [staticQuestionaires, setStaticQuestionaires] = useState([])
-  const [checkAnswers,setCheckAnswers] = useState(null);
 
   const spawnParticles = (emoji, count = 10) => {
     if (timeoutRef.current) {
@@ -177,8 +176,6 @@ function App() {
           <div className='static-file' onClick={() => parseQuestions(null, staticFile)}>
             <h3>{staticFile.title}</h3>
             <p>{Object.values(staticFile.questions).length} questions</p>
-            <p style={{width: '100%', borderTop: '1px solid white',paddingTop: 20}}
-            onClick={()=>setCheckAnswers(staticFile)}></p>
           </div>
         ))}
       </div>}
