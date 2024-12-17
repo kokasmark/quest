@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState,useRef  } from 'react';
 import './App.css';
 import logo from './assets/logo.png';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -15,28 +15,37 @@ function App() {
   const [showResult,setshowResult] = useState(false)
   const [questionNum, setquestionNum] = useState(30);
   const [particles, setParticles] = useState([]);
+  const timeoutRef = useRef(null); // Store the timeout ID
 
-  const spawnParticles = (emoji,count=10) => {
+  const spawnParticles = (emoji, count = 10) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  
     const newParticles = Array.from({ length: count }, (_, index) => {
-      const randomX = (index * window.innerWidth/count);
-      const randomY = (0+Math.random() * 600);
+      const randomX = (index * window.innerWidth / count);
+      const randomY = (Math.random() * window.innerHeight -200);
       return (
         <EmojiParticle
           key={Date.now() + index}
           emoji={emoji}
           startX={randomX}
           startY={randomY}
-          delay={index/count +Math.random()}
+          delay={Math.max(0, Math.random())}
         />
       );
     });
-
+  
     setParticles(newParticles);
-    setTimeout(() => {
-      setParticles([])
-    }, 2000);
-  }
 
+    timeoutRef.current = setTimeout(() => {
+      setParticles([]);
+    }, 3000);
+  };
+
+  useEffect(()=>{
+    spawnParticles("👋",20);
+  },[])
 
   const jsonCode = `{
     "title": "Questionaire title",
