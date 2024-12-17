@@ -47,34 +47,33 @@ input[type="file"]::file-selector-button:active {
   background-color: #e5e7eb;
 }
 
-.code{
-  border-radius: 30px;
-  background-color: transparent !important;
-  border: 2px solid white;
-  overflow: visible;
-  width: 50vw;
-  max-width: 300px;
-  max-height: 300px;
-  overflow: hidden !important;
-  margin-top: 10px;
-}
-.code img{
-  width: 50vw;
-  max-width: 300px;
-  max-height: 300px;
-}
-.code::before{
-  content: "Example Quest JSON";
-  background-color: #09425a;
-  padding: 5px;
-  width: fit-content;
-  height: fit-content;
-  position: absolute;
-  transform: translate(20px,-20px);
-  text-shadow: none !important;
-  color: white !important;
+.static-files {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 80vw;
+  justify-content: flex-start;
+  
+  overflow-x: auto;
+  padding: 0 10vw;
+  
+  scroll-snap-type: x mandatory;
+  scroll-padding-right: 10px;
 }
 
+.static-file{
+  text-align: center;
+  border: 2px solid #1aa2dc;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  min-width: 150px;
+}
+.static-file:hover{
+  scale: 1.1;
+  margin: 0px 10px 0px 10px;
+}
 
 .App {
   display: flex;

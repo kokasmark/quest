@@ -1,0 +1,1113 @@
+{
+  "title": "Arch 1 kérdések",
+  "questions": [
+    {
+      "question": "A BJT tranzisztor hővesztesége alacsonyabb, mint a FET tranzisztoré.",
+      "answer": "Hamis",
+      "reason": "A BJT tranzisztor magas hőveszteségű."
+    },
+    {
+      "question": "A Z1 számítógép volt az első, kettes számrendszerben szabadon programozható gép.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A módosított Harvard-architektúra azonos memóriából olvas adatokat és utasításokat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az egyenes kódban negatív nulla is ábrázolható.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BCD tárolásnál 4 bit 16 különböző értéket képes megjeleníteni.",
+      "answer": "Hamis",
+      "reason": "Csak 10 értéket képes tárolni."
+    },
+    {
+      "question": "A dinamikus hazárd megszüntetésére a statikus hazárdok kezelése elegendő lehet.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lebegőpontos számok kitevője 8 bites, és ez 256 szintet jelent.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az imperatív programozásban a gép dönt a program végrehajtásáról.",
+      "answer": "Hamis",
+      "reason": "A programozó határozza meg, mit és hogyan hajtson végre a program."
+    },
+    {
+      "question": "A ferritgyűrűs tárolóban a statikus mágneses állapot feszültséget indukál.",
+      "answer": "Hamis",
+      "reason": "Csak a mágneses tér változása indukál feszültséget."
+    },
+    {
+      "question": "Az IEEE 754 szabvány a lebegőpontos számábrázolást határozza meg.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A hiszterézis során a rendszer kimenete kizárólag a pillanatnyi bemenettől függ.",
+      "answer": "Hamis",
+      "reason": "A kimenet a korábbi állapotoktól is függ."
+    },
+    {
+      "question": "A Boole algebra alapjait George Boole és Charles Peirce fektette le.",
+      "answer": "Hamis",
+      "reason": "William Jevons és Charles Peirce alkották meg teljesen."
+    },
+    {
+      "question": "A szalagos tárak (Tape Library) mechanikai mozgás miatt lassabbak lehetnek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A kettes komplemens kódban a pozitív számokat 1111 kezdőbittel írjuk le.",
+      "answer": "Hamis",
+      "reason": "A pozitív számokat 0 kezdőbittel írjuk le."
+    },
+    {
+      "question": "A BIOS és az UEFI a számítógép hardver és szoftver közötti inicializálásért felel.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Joseph Marie Jacquard találta fel a lyukkártyát.",
+      "answer": "Hamis",
+      "reason": "Ő a lyukkártyával programozható szövőgépet találta fel."
+    },
+    {
+      "question": "Alan Turing fogalmazta meg először a gépek algoritmikus alapjait.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Neumann-architektúrában külön buszok használatosak az adatok és utasítások kezelésére.",
+      "answer": "Hamis",
+      "reason": "A Neumann-architektúra egy közös buszrendszert használ."
+    },
+    {
+      "question": "A kettes komplemens kódban az ábrázolt értékek tartománya negatív számokra is kiterjed.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A statikus hazárd megszüntethető az áramkör áttervezésével.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ferritgyűrűs tárolókban az írás művelete mátrixba kapcsolt elemeknél a metszéspontban történik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A szabályozás mindig kézi vezérlést igényel.",
+      "answer": "Hamis",
+      "reason": "A szabályozás lehet automatikus is, például termosztát esetében."
+    },
+    {
+      "question": "A mágneses adattároláskor a felvétel előtt törlés történik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A bináris ábrázolásban a carry jelző túlfutásra utal.",
+      "answer": "Hamis",
+      "reason": "A carry jelző a helyiértékek közötti átvitelre utal."
+    },
+    {
+      "question": "Az Alan Turing által alapított Z4 számítógép 40 Hz órajellel működött.",
+      "answer": "Hamis",
+      "reason": "A Z4-et Konrad Zuse készítette."
+    },
+    {
+      "question": "A lyukkártya modern mágneses adattároló eszköznek számít.",
+      "answer": "Hamis",
+      "reason": "A lyukkártya régi adattároló eszköz."
+    },
+    {
+      "question": "A lebegőpontos számok a számítógépben nagy értékek és tizedes tört tartományok kezelésére használatosak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A hiszterézis a mágneses rendszerek egy olyan jelensége, amely késleltetett válaszokat eredményezhet.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Harvard-architektúrában különálló memóriák vannak az adatok és az utasítások számára.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Tape Library rendszerekben a szalagokat QR-kód alapján azonosítják.",
+      "answer": "Igaz"
+    },
+	{
+      "question": "A Harvard-architektúrában egy buszrendszeren keresztül történik az adatok és utasítások kezelése.",
+      "answer": "Hamis",
+      "reason": "A Harvard-architektúrában külön buszokat használnak az adatok és utasítások kezelésére."
+    },
+    {
+      "question": "A Boole algebra megalkotása elsősorban William Jevons és Charles Peirce nevéhez köthető.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z3 számítógép órajele 10 Hz volt.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A FET tranzisztor működése során jelentős áram folyik a kapu felé.",
+      "answer": "Hamis",
+      "reason": "A FET tranzisztorban a kapu felé nem folyik jelentős áram."
+    },
+    {
+      "question": "A negatív nulla egyes számábrázolási módokban műveletvégzés eredményeként is keletkezhet.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az aritmetikai egység a számítógép egyik alapvető részegysége.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lebegőpontos számok ábrázolásához a mantissza mellett a kitevő is szükséges.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A rendszerhazárd az áramkör bemeneteinek szinkronizálatlanságából adódik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A tranzisztorok típusai között megtalálható a PNP és az NPN tranzisztor is.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A mágneses adattárolás során a lejátszófej vasmagjában feszültség indukálódik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az UEFI kizárólag hardverrel kapcsolatos inicializálásért felel.",
+      "answer": "Hamis",
+      "reason": "Az UEFI a hardver és szoftver közötti inicializálásért felel."
+    },
+    {
+      "question": "A hiszterézis jelensége előfordulhat elektromos rendszerekben is.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártyás adattárolás modern számítógépekben is elterjedt.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyás adattárolás elavult technológia."
+    },
+    {
+      "question": "A MOSFET alacsony hőveszteséggel működik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BCD tárolás előnye, hogy a számolási műveletek elvégzése egyszerűbb, mint bináris formátumban.",
+      "answer": "Hamis",
+      "reason": "A bináris formátumban egyszerűbb a számolási műveletek elvégzése."
+    },
+	{
+      "question": "A BJT tranzisztor áramvezérelt eszköz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A FET tranzisztor magasabb hőveszteséggel rendelkezik, mint a BJT.",
+      "answer": "Hamis",
+      "reason": "A FET tranzisztor alacsonyabb hőveszteséggel rendelkezik."
+    },
+    {
+      "question": "Konrad Zuse által megalkotott Z2 számítógép 5 Hz órajellel működött.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z3 számítógép 32 bites lebegőpontos számokkal dolgozott.",
+      "answer": "Hamis",
+      "reason": "A Z3 számítógép 22 bites lebegőpontos számokat használt."
+    },
+    {
+      "question": "A Neumann-architektúrában ugyanaz a memória szolgál az adatok és utasítások tárolására.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A 8 bites számábrázolásban a legnagyobb ábrázolható pozitív érték 255.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A kettes komplemens kód előnye, hogy nincs negatív nulla.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárd kialakulásának oka, hogy az áramkör bemenetei szinkronban vannak.",
+      "answer": "Hamis",
+      "reason": "A dinamikus hazárd oka, hogy a jelek különböző útvonalakon, eltérő időben érkeznek."
+    },
+    {
+      "question": "A hiszterézis kimenete kizárólag a pillanatnyi bemenet függvénye.",
+      "answer": "Hamis",
+      "reason": "A hiszterézis kimenete a korábbi állapotoktól is függ."
+    },
+    {
+      "question": "Az excess-N jelölés egy speciális lebegőpontos számábrázolási technika.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BCD kód használata tizedes pontosságú műveletekhez előnyös.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Schmitt-trigger kapcsoló a hiszterézis jelenség példája.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ferritgyűrűs tárolók mátrixba kötve működnek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Harvard-architektúra külön buszrendszert használ az adatok és az utasítások számára.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A tranzisztorok egyik fő típusa a MOSFET.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A rendszerhazárd kizárólag aszinkron hálózatokban fordul elő.",
+      "answer": "Hamis",
+      "reason": "A rendszerhazárd szinkron és aszinkron hálózatokban is megjelenhet."
+    },
+    {
+      "question": "Az automatizálás során a rendszerek kézi vezérlésre építenek.",
+      "answer": "Hamis",
+      "reason": "Az automatizálás lényege, hogy a rendszerek önállóan működnek."
+    },
+    {
+      "question": "A Z4 számítógép a világ első univerzális Turing-gépe.",
+      "answer": "Hamis",
+      "reason": "A Z3 számítógép volt az első univerzális Turing-gép."
+    },
+    {
+      "question": "A lyukkártya ma is használt háttértár.",
+      "answer": "Hamis",
+      "reason": "A lyukkártya elavult adattárolási forma."
+    },
+    {
+      "question": "A lebegőpontos számok reprezentációja 32 bites formátumban 8 bit kitevőt tartalmaz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az overflow az, amikor a számok összege túlcsordul az ábrázolható tartományon.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A John Atanasoff és Clifford Berry által megalkotott ABC számítógép 60 Hz-es órajellel működött.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BIOS kizárólag modern számítógépekben található.",
+      "answer": "Hamis",
+      "reason": "A BIOS elavult technológia, amelyet az UEFI váltott fel."
+    },
+    {
+      "question": "A mágneses adattároláskor a felvétel minőségét a sebesség is befolyásolja.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárdokat az áramkör tervezésével megelőzhetjük.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Neumann-architektúra egy buszrendszeren keresztül kezeli az adatokat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A 8 bites lebegőpontos számítások körülbelül 7 tizedes jegy pontosságúak.",
+      "answer": "Hamis",
+      "reason": "A 32 bites lebegőpontos számítások pontossága körülbelül 7 tizedes jegy."
+    },
+    {
+      "question": "A mágneses adattárolók AC BIAS segítségével törlik a korábbi adatokat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A bináris számrendszer ábrázolása nagyobb értékeket képes megjeleníteni, mint a BCD.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukszalag modern adattárolási forma.",
+      "answer": "Hamis",
+      "reason": "A lyukszalag elavult adattárolási forma."
+    },
+    {
+      "question": "A Schmitt-trigger egy példája a hiszterézisnek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A számítógép öt fő egysége közé tartozik az aritmetikai egység.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A rendszerhazárd több flip-flop különböző sebessége miatt is kialakulhat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártyák olvasására speciális QR-kódot használtak.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák mechanikai minták alapján működtek, nem QR-kódokkal."
+    },
+    {
+      "question": "A lebegőpontos számok túl nagy vagy túl kicsi értékek kezelésére szolgálnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A carry az előjel-bit túlfutását jelenti.",
+      "answer": "Hamis",
+      "reason": "A carry a helyiértékek közötti átvitelre utal."
+    },
+    {
+      "question": "A Tape Library rendszerek képesek hosszú távú adatmegőrzésre.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z1 számítógép órajele 10 Hz volt.",
+      "answer": "Hamis",
+      "reason": "A Z1 számítógép órajele 1 Hz volt."
+    },
+	{
+      "question": "A BJT tranzisztor működése során a kollektor és az emitter közötti áramot a bázison átfolyó áram vezérli.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A FET tranzisztor a kapu feszültségével szabályozza a drain és source közötti áramot.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z1 számítógép az első tisztán elektronikus digitális számítógép volt.",
+      "answer": "Hamis",
+      "reason": "A Z1 mechanikus és elektromos alkatrészeket egyaránt tartalmazott."
+    },
+    {
+      "question": "A Harvard-architektúrában az adatok és az utasítások külön memóriában tárolódnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A kettes komplemens kód lehetővé teszi a negatív számok egyszerű összeadását és kivonását.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z4 számítógép a Neumann-architektúra alapján készült.",
+      "answer": "Hamis",
+      "reason": "A Z4 nem a Neumann-architektúra elveit követte."
+    },
+    {
+      "question": "A lebegőpontos számok mantisszája 23/24 bites a 32 bites ábrázolás esetén.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A carry jelző használatos az előjel-bit túlfutásának jelzésére.",
+      "answer": "Hamis",
+      "reason": "A carry jelző a helyiértékek közötti átvitelre utal, nem az előjel-bit túlfutására."
+    },
+    {
+      "question": "Az excess-50 kód példája az eltolásos számábrázolásnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A rendszerhazárd szinkron hálózatoknál nem jelentkezhet.",
+      "answer": "Hamis",
+      "reason": "A rendszerhazárd szinkron és aszinkron hálózatokban is előfordulhat."
+    },
+    {
+      "question": "A mágneses adattárolás során a lejátszófej a hordozón lévő mágneses tér változását érzékeli.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Neumann-architektúra fő jellemzője a külön buszrendszer az adatokhoz és az utasításokhoz.",
+      "answer": "Hamis",
+      "reason": "A Neumann-architektúra egy buszrendszert használ az adatokhoz és az utasításokhoz."
+    },
+    {
+      "question": "A lyukszalag elavult adattároló eszköz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az UEFI az operációs rendszer betöltését segíti.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A MOSFET alacsony hőveszteséggel rendelkezik, és feszültségvezérelt eszköz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárdok elkerüléséhez szükséges lehet az áramkör újratervezése.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lebegőpontos számok túlléphetik az egész számok határait.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ferritgyűrűs tárolóban az olvasás során nem változik az eredeti adattartalom.",
+      "answer": "Hamis",
+      "reason": "Az olvasás után az eredeti adatot vissza kell írni, ha az megváltozott."
+    },
+    {
+      "question": "A Tape Library rendszereket elsősorban rövid távú adattárolásra használják.",
+      "answer": "Hamis",
+      "reason": "A Tape Library rendszereket hosszú távú adattárolásra használják."
+    },
+    {
+      "question": "A lyukkártyák QR-kódos azonosítást alkalmaztak.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák mechanikus mintákat használtak az adattárolásra."
+    },
+    {
+      "question": "A Harvard-architektúra külön memóriákat használ az adatok és utasítások tárolására.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A hiszterézis hatása a rendszerek kimeneti válaszidejét késlelteti.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BJT tranzisztor működése során a kapu vezérli az áramot.",
+      "answer": "Hamis",
+      "reason": "A BJT tranzisztor működését a bázison átfolyó áram vezérli, nem kapu van benne."
+    },
+    {
+      "question": "A Z3 számítógép 22 bites lebegőpontos számokat használt.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A számítógép aritmetikai egysége kizárólag összeadásra képes.",
+      "answer": "Hamis",
+      "reason": "Az aritmetikai egység számos műveletet végez, például szorzást és összeadást is."
+    },
+    {
+      "question": "A kettes komplemens kódban negatív nulla nem létezik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lebegőpontos számok ábrázolása során a mantissza és a kitevő is fontos szerepet játszik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A mágneses adattároláskor a törlőfej előmágnesezést végez.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BIOS utódja az UEFI.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártyák helytakarékos adattárolási megoldások.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák adattárolása helypazarló volt."
+    },
+    {
+      "question": "A Tape Library rendszerekben mechanikus fejeket használnak az adatok elérésére.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárd kizárólag többszintű logikai hálózatokban fordul elő.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A FET tranzisztor a bázis vezérlésével működik.",
+      "answer": "Hamis",
+      "reason": "A FET tranzisztor a kapu feszültségével működik."
+    },
+    {
+      "question": "A lebegőpontos számok IEEE 754 szabványa 32 bites és 64 bites formátumokat is meghatároz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártyák és a lyukszalagok az optikai adattárolók elődjei.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák és a lyukszalagok mechanikus adattárolók voltak, nem optikaiak."
+    },
+    {
+      "question": "A Schmitt-trigger kapcsoló hiszterézis hatást alkalmaz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Neumann-architektúra támogatja az egyidejű memóriaelérést az adatok és az utasítások számára.",
+      "answer": "Hamis",
+      "reason": "A Neumann-architektúra nem támogatja az egyidejű memóriaelérést."
+    },
+    {
+      "question": "A tranzisztorok alapvető szerepet játszanak a modern számítógépek működésében.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Harvard-architektúrában az adat- és utasítás-memória egy közös helyen található.",
+      "answer": "Hamis",
+      "reason": "A Harvard-architektúrában külön memóriák vannak az adatok és az utasítások számára."
+    },
+	{
+      "question": "A FET tranzisztor működése feszültségvezérelt, és a kapu feszültsége szabályozza a drain és a source közötti áramot.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Z3 számítógépet John Vincent Atanasoff fejlesztette ki.",
+      "answer": "Hamis",
+      "reason": "A Z3 számítógépet Konrad Zuse fejlesztette ki."
+    },
+    {
+      "question": "A statikus hazárd tervezési hibákból adódik, amelyek rövid ideig helytelen kimenetet okoznak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lebegőpontos számítások során az underflow azt jelenti, hogy a szám túl kicsi ahhoz, hogy reprezentálható legyen.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BJT tranzisztor PNP és NPN típusokban is létezik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az excess-128 kód 32 bites lebegőpontos számok ábrázolásához használatos.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Tape Library rendszerek gyors hozzáférést biztosítanak az adatokhoz.",
+      "answer": "Hamis",
+      "reason": "A Tape Library rendszerek lassúak a mechanikus működésük miatt."
+    },
+    {
+      "question": "A Schmitt-trigger egy logikai kapu, amely hiszterézis hatással rendelkezik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Harvard-architektúra memóriarendszere megakadályozza az adat- és utasítássávok közötti interferenciát.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BIOS és az UEFI egyaránt operációs rendszertől független szoftverek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A kétkomplementes számábrázolás előnye, hogy egyszerűsíti az összeadás és kivonás műveleteit.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártyák és a lyukszalagok modern adattárolási eszközök.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák és lyukszalagok elavult adattárolók."
+    },
+    {
+      "question": "Az Alan Turing által megalkotott Turing-gép alapvetően a mai számítógépek működési elvét írja le.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A carry jelző a helyiértékek közötti átvitelre utal az összeadás során.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BCD kódok bináris formában tárolják a tizedes számokat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A mágneses adattárolás alapelve, hogy az adatok egy mágnesezhető anyagon kerülnek rögzítésre.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárd az időzítési eltérések miatt jelentkezik az áramkörben.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ferritgyűrűs tárolók olvasása nem módosítja az eredeti adatokat.",
+      "answer": "Hamis",
+      "reason": "Az olvasás után az eredeti adatot vissza kell írni, ha az megváltozik."
+    },
+    {
+      "question": "A Neumann-architektúra egyik hátránya a memóriaelérés szűk keresztmetszete.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártya adattárolása QR-kód alapú technológiát alkalmazott.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák mechanikus minták alapján tároltak adatokat."
+    },
+    {
+      "question": "A lebegőpontos számok mantisszája általában 23 vagy 24 bit hosszú a 32 bites ábrázolásnál.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A rendszerhazárd különböző flip-flopok eltérő sebessége miatt alakulhat ki.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A bináris számrendszer ábrázolása nagyobb hatékonyságú, mint a BCD kódé.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Harvard-architektúra lehetővé teszi az egyidejű adat- és utasításfeldolgozást.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A tranzisztorok áramkörök alapvető építőkövei.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az IEEE 754 szabvány lebegőpontos számok ábrázolását definiálja.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A statikus hazárdok megszüntethetők az áramkör áttervezésével.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BIOS kizárólag modern számítógépekben található meg.",
+      "answer": "Hamis",
+      "reason": "A BIOS elavult technológia, amelyet az UEFI váltott fel."
+    },
+    {
+      "question": "A lyukszalag olvasása során a lyukak elhelyezkedése határozza meg a tárolt adatot.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A hiszterézis miatt egy rendszer kimeneti állapota függhet a múltbeli bemeneti értékektől.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A MOSFET tranzisztor áramvezérelt működésű.",
+      "answer": "Hamis",
+      "reason": "A MOSFET tranzisztor feszültségvezérelt működésű."
+    },
+    {
+      "question": "A lebegőpontos számok nagyobb pontosságot biztosítanak, mint a fixpontos számok.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Tape Library rendszerek internetes adatmentésre is használatosak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A kettes komplemens kód használatával egyszerűbben végrehajtható az összeadás és kivonás.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A dinamikus hazárd kizárólag egyszerű logikai hálózatokban fordul elő.",
+      "answer": "Hamis",
+      "reason": "A dinamikus hazárd többszintű logikai hálózatokban jelentkezik."
+    },
+    {
+      "question": "A tranzisztorok PNP és NPN típusai eltérő polaritású vezérlést igényelnek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BCD kód tárolása hatékonyabb, mint a bináris számoké.",
+      "answer": "Hamis",
+      "reason": "A BCD kód helypazarlóbb, mint a bináris számok tárolása."
+    },
+    {
+      "question": "A mágneses adattárolás során a lejátszófej indukált feszültséget érzékel.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A BIOS szerepe az operációs rendszer inicializálása.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Schmitt-trigger működése nem tartalmazza a hiszterézis hatást.",
+      "answer": "Hamis",
+      "reason": "A Schmitt-trigger működése kifejezetten a hiszterézis hatáson alapul."
+    },
+    {
+      "question": "A lebegőpontos számábrázolás során a kitevő jelöli a szám skáláját.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lyukkártya modern alternatívája a mágneses adattárolók.",
+      "answer": "Hamis",
+      "reason": "A lyukkártyák elavult technológiát képviselnek, és nem közvetlen alternatívái a mágneses adattárolóknak."
+    },
+	{
+      "question": "Az első merevtokos floppy lemezt Jánosi Marcell fejlesztette ki.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ZIP drive a Bernoulli elven működik.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD-k mágneses adattárolást használnak, amely Faraday törvényén alapul.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HAMR technológia hő segítségével növeli az adatsűrűséget a HDD-ken.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD fejet neodímium mágnesek mozgatják.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ZBR rendszer a HDD szektorait egyenletesen osztja el minden sávon.",
+      "answer": "Hamis",
+      "reason": "A ZBR rendszer a HDD külső sávjain több szektort helyez el, mint a belsőkön."
+    },
+    {
+      "question": "Az SSD-k NAND Flash technológiát használnak, és laponként címezhetők.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az SLC technológia cellánként 3 bit tárolására képes.",
+      "answer": "Hamis",
+      "reason": "Az SLC technológia cellánként 1 bit tárolására képes."
+    },
+    {
+      "question": "A 3D XPoint technológia 1000-szer gyorsabb, mint a NAND technológia.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Blu-Ray lemezek gödörmérete kisebb, mint a DVD lemezeké.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DVD-RAM szektorai spirálisan helyezkednek el a lemezen.",
+      "answer": "Hamis",
+      "reason": "A DVD-RAM szektorai koncentrikus körökben helyezkednek el."
+    },
+    {
+      "question": "Az SRAM memóriát tápfeszültség nélkül is használhatjuk.",
+      "answer": "Hamis",
+      "reason": "Az SRAM csak addig tárol adatot, amíg tápfeszültséggel ellátjuk."
+    },
+    {
+      "question": "A DRAM cellák tartalmát ciklikusan frissíteni kell.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DDR memóriák egyszeri adatátvitelt hajtanak végre órajelciklusonként.",
+      "answer": "Hamis",
+      "reason": "A DDR memóriák kétszeri adatátvitelt hajtanak végre órajelciklusonként."
+    },
+    {
+      "question": "A ROM memóriák tartalma gyártás során íródik, és nem módosítható.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az EEPROM elektronikusan törölhető és újraprogramozható memória.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az IGZO technológia nagyobb energiahatékonyságot biztosít, mint az amorf szilícium.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az OLED kijelzőknek nincs szükségük háttérvilágításra.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ZINK nyomtatók tinta nélkül működnek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 1 technológia redundáns tárolást biztosít tükrözéssel.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 0 szint nagy adatbiztonságot nyújt.",
+      "answer": "Hamis",
+      "reason": "A RAID 0 nem biztosít redundanciát, így nincs adatbiztonság."
+    },
+    {
+      "question": "A RAID 5 technológia körbeforgó paritást használ.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 6 lehetővé teszi két meghajtó meghibásodását adatvesztés nélkül.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Dynamic Disk Pool technológia gyorsabb visszaállítást tesz lehetővé, mint a RAID.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A plazmakijelzők foszforral bevont képernyőt használnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az LCD TN paneleknek a legjobb betekintési szögük van.",
+      "answer": "Hamis",
+      "reason": "Az LCD TN paneleknek a legrosszabb betekintési szögük van."
+    },
+    {
+      "question": "A CRT kijelzők működési elve az elektronsugarak eltérítésén alapul.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DLP projektorok a fényt színes színszűrőkön keresztül bontják szét.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A 3LCD technológia három színszétválasztó tükröt használ a képalkotáshoz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A lézernyomtatók tonerpor segítségével hoznak létre nyomatokat.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A mátrixnyomtatók piezoelektromos technológiát használnak.",
+      "answer": "Hamis",
+      "reason": "A mátrixnyomtatók tűkkel dolgoznak, nem piezoelektromos technológiával."
+    },
+    {
+      "question": "A CPU ALU részegysége aritmetikai műveletek végrehajtására szolgál.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A szuperskalár processzorok egyszerre több utasítást hajtanak végre egy ciklus alatt.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A SIMD technológia egy utasítással több adatelemen végez műveleteket.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Little Man Computer egy valóságos CPU modell.",
+      "answer": "Hamis",
+      "reason": "A Little Man Computer egy oktatási célú, egyszerűsített CPU modell."
+    },
+    {
+      "question": "A buszok lehetővé teszik az eszközök közötti egyszerű adatkapcsolatot.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A CISC processzorok kevesebb regisztert használnak, mint a RISC processzorok.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RISC processzorok bonyolultabb utasításokat használnak, mint a CISC processzorok.",
+      "answer": "Hamis",
+      "reason": "A RISC processzorok egyszerűbb utasításokat használnak, mint a CISC processzorok."
+    },
+    {
+      "question": "Az EPIC processzorok egyszerre három utasítást hajtanak végre.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Flash memória nem igényel energiaellátást az adatok tárolásához.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A NOR technológia közvetlen programfuttatásra alkalmas.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A NAND technológia soros adathozzáférést biztosít.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az interleaving optimalizálja a HDD szektorok sorrendjét a gyorsabb elérés érdekében.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DVD+R nem képes elviselni az írás megszakadását.",
+      "answer": "Hamis",
+      "reason": "A DVD+R képes elviselni az írás megszakadását, ellentétben a DVD-R-rel."
+    },
+    {
+      "question": "A RAID 01 biztonságosabb, mint a RAID 10.",
+      "answer": "Hamis",
+      "reason": "A RAID 10 biztonságosabb, mint a RAID 01, mert a RAID 10 nem omlik össze egy meghajtó meghibásodása esetén."
+    },
+    {
+      "question": "A CPU regisztereinek feladata a számítások közbeni adat tárolása.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A CPU pipelining a végrehajtási műveletek párhuzamosítását jelenti.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az EEPROM memóriák UV-fénnyel törölhetők.",
+      "answer": "Hamis",
+      "reason": "Az EEPROM elektronikusan törölhető, nem UV-fénnyel."
+    },
+	{
+      "question": "Az első 8”-os puhatokos floppy lemezt az IBM fejlesztette ki.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A ZIP drive-nál a fej soha nem ér hozzá a lemezhez.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD forgólemezei általában egyoldalasak.",
+      "answer": "Hamis",
+      "reason": "A HDD forgólemezei legtöbbször kétoldalasak, és mindkét oldal írható-olvasható."
+    },
+    {
+      "question": "A HAMR technológia aszimmetrikus írófejet használ az íráshoz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD-k olvasófeje karcolja a lemez felületét működés közben.",
+      "answer": "Hamis",
+      "reason": "A fej a lemez felett egy levegőpárnán lebeg, és nem ér hozzá."
+    },
+    {
+      "question": "Az SSD-k NAND Flash technológiával működnek, amely laponkénti címezhetőséget biztosít.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A 3D XPoint technológia nem igényel frissítést, mint a DRAM memóriák.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DVD-RAM szektorszerkezete ZBR rendszerű.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az SRAM belső áramkörei két egymással szembe kötött inverterből állnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DRAM memóriákat nem szükséges frissíteni működés közben.",
+      "answer": "Hamis",
+      "reason": "A DRAM cellák tartalmát ciklikusan frissíteni kell, mivel a kondenzátorok gyorsan elveszítik a töltésüket."
+    },
+    {
+      "question": "Az EEPROM cellák tartalmát csak UV-fénnyel lehet törölni.",
+      "answer": "Hamis",
+      "reason": "Az EEPROM cellák tartalmát elektronikusan lehet törölni."
+    },
+    {
+      "question": "A RAID 1 szintet tükrözéses adattárolásra használják.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 5 szint paritás segítségével biztosítja az adatbiztonságot.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Dynamic Disk Pool technológia legalább 11 lemezt igényel a működéshez.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A CRT kijelzők működése az elektronsugár foszforra történő becsapódásán alapul.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az OLED kijelzők pixelei önállóan bocsátanak ki fényt.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 6 technológia képes két meghajtó meghibásodását is kezelni adatvesztés nélkül.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 0+1 és a RAID 1+0 technológia között nincs különbség a biztonság szempontjából.",
+      "answer": "Hamis",
+      "reason": "A RAID 1+0 biztonságosabb, mivel egy meghajtó meghibásodása esetén a tömb nem omlik össze."
+    },
+    {
+      "question": "A TN panelek az LCD kijelzők legrosszabb betekintési szögű változatai.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DLP projektorok 16 millió szín megjelenítésére képesek.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A mátrixnyomtatók nagy felbontású nyomatok készítésére alkalmasak.",
+      "answer": "Hamis",
+      "reason": "A mátrixnyomtatók alacsony felbontású nyomatokat készítenek."
+    },
+    {
+      "question": "A lézernyomtatók szénporból álló tonert használnak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A termotranszfer nyomtatók anyagában színezik a papírt.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A CPU ALU egysége logikai műveleteket végez.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A SIMD technológia több utasítást hajt végre egyszerre.",
+      "answer": "Hamis",
+      "reason": "A SIMD egy utasítást hajt végre több adatelemen."
+    },
+    {
+      "question": "A Flash memóriák gyorsabbak, mint a DRAM memóriák.",
+      "answer": "Hamis",
+      "reason": "A DRAM memóriák gyorsabbak, mint a Flash memóriák."
+    },
+    {
+      "question": "A NAND Flash technológia párhuzamos adathozzáférést biztosít.",
+      "answer": "Hamis",
+      "reason": "A NAND Flash technológia soros adathozzáférést biztosít."
+    },
+    {
+      "question": "A Blu-Ray lemezek tárolási kapacitása nagyobb, mint a DVD-ké.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 10 nagyobb adatbiztonságot nyújt, mint a RAID 01.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A DRAM címzése kizárólag soronként történik.",
+      "answer": "Hamis",
+      "reason": "A DRAM címzése soronként és oszloponként történik."
+    },
+    {
+      "question": "Az OLED kijelzők pixelei nem igényelnek háttérvilágítást.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A Dynamic Disk Pool technológia gyorsabban helyreállítható meghibásodás esetén, mint a RAID.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az LMC egy valós CPU modell.",
+      "answer": "Hamis",
+      "reason": "Az LMC egy oktatási célú, szimulált CPU modell."
+    },
+    {
+      "question": "A ZINK nyomtatók speciális papírra nyomtatnak, amely hőérzékeny rétegeket tartalmaz.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 5 technológia egyetlen meghajtó meghibásodását képes kezelni adatvesztés nélkül.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az IGZO technológia alacsonyabb energiafogyasztású kijelzők előállítását teszi lehetővé.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD-k olvasófeje mindig hozzáér a lemez felületéhez működés közben.",
+      "answer": "Hamis",
+      "reason": "A HDD-k olvasófeje a lemez felett lebeg, és nem ér hozzá."
+    },
+    {
+      "question": "A RISC processzorok utasításai bonyolultabbak, mint a CISC processzoroké.",
+      "answer": "Hamis",
+      "reason": "A RISC processzorok egyszerűbb utasításokat használnak."
+    },
+    {
+      "question": "A Blu-Ray lemezek 0.7 nm méretű pit-eket tartalmaznak.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A RAID 6 technológia akár két meghajtó meghibásodását is képes kezelni.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az OLED kijelzők idővel veszthetnek színhelyességükből.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A CPU pipelining több utasítást dolgoz fel egyszerre.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "Az EPROM memóriát UV-fénnyel lehet törölni.",
+      "answer": "Igaz"
+    },
+    {
+      "question": "A HDD ZBR rendszere optimalizálja a külső sávok adatsűrűségét.",
+      "answer": "Igaz"
+    }
+  ]
+}
