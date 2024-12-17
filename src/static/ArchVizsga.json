@@ -1798,6 +1798,290 @@
       "question": "Az OLED kijelzők hajlíthatók, mivel szerves anyagokat használnak.",
       "answer": "Igaz",
       "reason": "Az OLED technológia rugalmas, mivel szerves molekulákból áll."
+    },{
+      "question": "A ZIP drive forgási sebessége 3000 fordulat/perc.",
+      "answer": "Igaz",
+      "reason": "A ZIP drive forgási sebessége valóban 3000 fordulat/perc volt."
+    },
+    {
+      "question": "A Shugart rendszerű floppy lemez 5.25 hüvelykes méretű volt.",
+      "answer": "Igaz",
+      "reason": "A Shugart rendszerű floppy 5.25 hüvelykes puhatokos lemez volt."
+    },
+    {
+      "question": "A Blu-ray lemez 128 GB maximális kapacitással rendelkezik.",
+      "answer": "Hamis",
+      "reason": "A Blu-ray lemezek maximális kapacitása 100 GB, nem 128 GB."
+    },
+    {
+      "question": "A 3D XPoint technológia 1000-szer gyorsabb, mint a NAND Flash.",
+      "answer": "Igaz",
+      "reason": "A 3D XPoint technológia akár 1000-szer gyorsabb a NAND-nál."
+    },
+    {
+      "question": "Az LCD TN paneljeinek válaszideje kevesebb, mint 1 ms.",
+      "answer": "Igaz",
+      "reason": "A TN panelek gyors válaszidővel rendelkeznek, kevesebb, mint 1 ms."
+    },
+    {
+      "question": "Az IGZO technológia akár 20-50-szer nagyobb elektronmobilitást biztosít, mint az amorf szilícium.",
+      "answer": "Igaz",
+      "reason": "Az IGZO akár 20-50-szer gyorsabb elektronmobilitást kínál."
+    },
+    {
+      "question": "A HDD HAMR technológia segítségével akár 60 TB kapacitást is elérhet.",
+      "answer": "Igaz",
+      "reason": "A HAMR technológia lehetővé teszi a 60 TB-os kapacitást."
+    },
+    {
+      "question": "A DVD-RAM adatok tárolása spirálisan történik.",
+      "answer": "Hamis",
+      "reason": "A DVD-RAM adatok tárolása koncentrikus körökben történik."
+    },
+    {
+      "question": "A ZINK technológia által használt hőérzékeny papír 70-75%-os fényáteresztést biztosít.",
+      "answer": "Igaz",
+      "reason": "A ZINK papír 70-75%-os fényáteresztéssel rendelkezik."
+    },
+    {
+      "question": "A DRAM olvasási és írási késleltetése CAS Latency-ként ismert.",
+      "answer": "Igaz",
+      "reason": "A DRAM esetében a CAS Latency határozza meg az olvasási és írási késleltetést."
+    },
+    {
+      "question": "A RAID 5 technológiában három meghajtóra van szükség a működéshez.",
+      "answer": "Igaz",
+      "reason": "A RAID 5 minimális követelménye három meghajtó."
+    },
+    {
+      "question": "A DDR4 memóriák frekvenciája jellemzően 1600-3200 MHz között mozog.",
+      "answer": "Igaz",
+      "reason": "A DDR4 memóriák tipikus frekvencia tartománya 1600-3200 MHz."
+    },
+    {
+      "question": "A HDD átlagos fejmozgatási ideje általában 8-12 ms.",
+      "answer": "Igaz",
+      "reason": "A HDD-k átlagos fejmozgatási ideje általában 8-12 ms között van."
+    },
+    {
+      "question": "A DRAM cellájának frissítési ciklusa jellemzően 64 ms.",
+      "answer": "Igaz",
+      "reason": "A DRAM cellák frissítési ciklusa általában 64 ms."
+    },
+    {
+      "question": "Az UV fény segítségével törölhető EPROM törlési ideje 1 perc.",
+      "answer": "Hamis",
+      "reason": "Az EPROM törlési ideje UV fénnyel jellemzően 10-20 perc."
+    },
+    {
+      "question": "A RAID 0 tömbnél egy meghajtó kiesése az összes adat elvesztését okozza.",
+      "answer": "Igaz",
+      "reason": "RAID 0 esetében nincs redundancia, így egy meghajtó kiesése adatvesztést eredményez."
+    },
+    {
+      "question": "A NAND Flash memóriák törlési ciklusai 2000-3000 között mozognak.",
+      "answer": "Hamis",
+      "reason": "A NAND Flash memóriák jellemzően 3000-10000 ciklus között működnek."
+    },
+    {
+      "question": "A Blu-ray lemezek olvasásához használt lézer hullámhossza 405 nm.",
+      "answer": "Igaz",
+      "reason": "A Blu-ray lemezek kék lézerének hullámhossza 405 nm."
+    },
+    {
+      "question": "A 3D nyomtatók SLA technológiájának pontossága akár 50 mikron is lehet.",
+      "answer": "Igaz",
+      "reason": "Az SLA technológia 50 mikronos pontosságot érhet el."
+    },
+    {
+      "question": "A ZIP drive 100 MB kapacitással jelent meg először.",
+      "answer": "Igaz",
+      "reason": "A ZIP drive első verziója 100 MB kapacitású volt."
+    },
+    {
+      "question": "A HDD forgási sebessége jellemzően 7200 rpm.",
+      "answer": "Igaz",
+      "reason": "A HDD-k standard forgási sebessége 7200 rpm."
+    },
+    {
+      "question": "A RAID 6 paritásszámítása miatt az adatok 50%-a redundancia.",
+      "answer": "Hamis",
+      "reason": "A RAID 6 kettős paritást alkalmaz, de a redundancia mértéke nem 50%."
+    },
+    {
+      "question": "A CRT kijelzők elektronnyaláb szkennelése soronként történik.",
+      "answer": "Igaz",
+      "reason": "A CRT kijelzők raszterszkenneléssel működnek, soronként rajzolják ki a képet."
+    },
+    {
+      "question": "A NOR Flash memóriák írási sebessége 5 µs/bájt.",
+      "answer": "Igaz",
+      "reason": "A NOR Flash memóriák írási sebessége általában 5 µs/bájt."
+    },
+    {
+      "question": "Az IGZO tranzisztorok alacsony szivárgóárammal rendelkeznek, csökkentve az energiafogyasztást.",
+      "answer": "Igaz",
+      "reason": "Az IGZO tranzisztorok energiatakarékosak alacsony szivárgóáramuk miatt."
+    },
+    {
+      "question": "A RAID 10 esetében a teljes kapacitás fele felhasználható adatmentésre.",
+      "answer": "Igaz",
+      "reason": "RAID 10 esetében a redundancia miatt csak a kapacitás fele érhető el."
+    },
+    {
+      "question": "A TN panelek 90-100 fokos betekintési szöggel rendelkeznek.",
+      "answer": "Hamis",
+      "reason": "A TN panelek betekintési szöge 170-180 fok közötti, de színtorzulással."
+    },
+    {
+      "question": "A lézernyomtatók szénporral dolgoznak a nyomtatás során.",
+      "answer": "Igaz",
+      "reason": "A lézernyomtatók szénport (tonert) használnak."
+    },
+    {
+      "question": "A HDD átlagos késleltetési ideje 10 ms körüli.",
+      "answer": "Igaz",
+      "reason": "A HDD-k átlagos késleltetési ideje valóban körülbelül 10 ms."
+    },
+    {
+      "question": "A DVD-RAM adatokat koncentrikus körökben tárol.",
+      "answer": "Igaz",
+      "reason": "A DVD-RAM tárolási módja a koncentrikus körökre épül, nem spirális."
+    },
+    {
+      "question": "Az EPROM törlési ideje 1 másodperc UV fény alatt.",
+      "answer": "Hamis",
+      "reason": "Az EPROM törléséhez jellemzően 10-20 perc UV fény szükséges."
+    },
+    {
+      "question": "A 3D nyomtatók FDM technológiája 0.1 mm-es pontosságot biztosít.",
+      "answer": "Igaz",
+      "reason": "Az FDM nyomtatók 0.1 mm-es (100 mikron) pontosságot érhetnek el."
+    },
+    {
+      "question": "A RAID 5 technológiához minimum 2 meghajtó szükséges.",
+      "answer": "Hamis",
+      "reason": "A RAID 5 működéséhez legalább 3 meghajtó szükséges."
+    },
+    {
+      "question": "A CRT kijelzők elektronnyaláb szkennelési sebessége 60 Hz.",
+      "answer": "Igaz",
+      "reason": "A CRT kijelzők gyakran 60 Hz-es szkennelési frekvenciával működnek."
+    },
+    {
+      "question": "A DDR3 memóriák maximális frekvenciája 800 MHz.",
+      "answer": "Hamis",
+      "reason": "A DDR3 memóriák frekvenciája akár 1600 MHz vagy annál nagyobb is lehet."
+    },
+    {
+      "question": "A Blu-ray lemezek adatkapacitása 25 GB egy rétegen.",
+      "answer": "Igaz",
+      "reason": "Egy rétegű Blu-ray lemez 25 GB adatot képes tárolni."
+    },
+    {
+      "question": "A HDD HAMR technológia 60 GB kapacitást tesz lehetővé egy 3.5 hüvelykes lemezen.",
+      "answer": "Hamis",
+      "reason": "A HAMR technológia akár 60 TB kapacitást is elérhet egy 3.5 hüvelykes HDD-n."
+    },
+    {
+      "question": "A RAID 6 két meghajtó meghibásodását is képes kezelni adatvesztés nélkül.",
+      "answer": "Igaz",
+      "reason": "A RAID 6 kettős paritást alkalmaz, ami lehetővé teszi két meghajtó meghibásodásának kezelését."
+    },
+    {
+      "question": "A NAND Flash technológia írási sebessége 50 µs/lap.",
+      "answer": "Hamis",
+      "reason": "A NAND Flash írási sebessége általában 200 µs/lap körüli."
+    },
+    {
+      "question": "A DVD+R technológia megszakítás nélküli írást követel meg.",
+      "answer": "Hamis",
+      "reason": "A DVD+R képes az írás megszakításának kezelésére."
+    },
+    {
+      "question": "A Little Man Computer modellje 100 memóriahelyet tartalmaz.",
+      "answer": "Igaz",
+      "reason": "A Little Man Computer modellje pontosan 100 memóriahelyet használ."
+    },
+    {
+      "question": "A Blu-ray lemezek kék lézerének hullámhossza 650 nm.",
+      "answer": "Hamis",
+      "reason": "A Blu-ray lemezek kék lézerének hullámhossza 405 nm."
+    },
+    {
+      "question": "A CRT kijelzők működéséhez 1.5-3 kV feszültség szükséges.",
+      "answer": "Igaz",
+      "reason": "A CRT kijelzők elektronsugárához általában 1.5-3 kV feszültség szükséges."
+    },
+    {
+      "question": "Az SSD meghajtók TBW (Total Bytes Written) értéke 150-300 TB között van.",
+      "answer": "Igaz",
+      "reason": "Az SSD-k TBW értéke gyakran 150-300 TB között mozog a típus függvényében."
+    },
+    {
+      "question": "Az IGZO technológia tranzisztorainak áttetszősége növeli a kijelző fényerejét.",
+      "answer": "Igaz",
+      "reason": "Az IGZO tranzisztorok áttetszőek, így csökkentik az energiafelhasználást és növelik a fényerőt."
+    },
+    {
+      "question": "A DRAM memória címzési módja bitenként történik.",
+      "answer": "Hamis",
+      "reason": "A DRAM memória címzése nem bitenként, hanem sorok és oszlopok szerint történik."
+    },
+    {
+      "question": "A ZIP drive maximális kapacitása 750 MB.",
+      "answer": "Igaz",
+      "reason": "A ZIP drive későbbi verziói akár 750 MB kapacitással is elérhetők voltak."
+    },
+    {
+      "question": "A RAID 0 redundanciát biztosít az adatok védelmére.",
+      "answer": "Hamis",
+      "reason": "A RAID 0 nem biztosít redundanciát vagy adatvédelmet."
+    },
+    {
+      "question": "A 3D nyomtatók SLS technológiája por alapú anyagokat használ.",
+      "answer": "Igaz",
+      "reason": "Az SLS nyomtatók por alapú anyagokat hevítenek lézerrel."
+    },
+    {
+      "question": "Az OLED kijelzők pixelei képesek teljesen kikapcsolni.",
+      "answer": "Igaz",
+      "reason": "Az OLED pixelek egyenként kikapcsolhatók, így valódi fekete színt érnek el."
+    },
+    {
+      "question": "A RAID 1+0 adatbiztonsága gyengébb, mint a RAID 0+1.",
+      "answer": "Hamis",
+      "reason": "A RAID 1+0 (RAID 10) nagyobb adatbiztonságot nyújt, mint a RAID 0+1."
+    },
+    {
+      "question": "A NAND Flash memóriák élettartama általában 10 000 írási ciklus.",
+      "answer": "Igaz",
+      "reason": "A NAND Flash memóriák tipikus élettartama körülbelül 10 000 írási ciklus."
+    },
+    {
+      "question": "A RAID 5 adatkapacitása meghajtók száma mínusz kettő.",
+      "answer": "Hamis",
+      "reason": "A RAID 5 adatkapacitása a meghajtók száma mínusz egy (a paritás miatt)."
+    },
+    {
+      "question": "A TN paneles LCD kijelzők betekintési szöge 160 fok alatti.",
+      "answer": "Igaz",
+      "reason": "A TN panelek betekintési szöge jellemzően 160 fok alatt van."
+    },
+    {
+      "question": "A HDD fejmozgatási idő általában 15-20 ms között mozog.",
+      "answer": "Hamis",
+      "reason": "A HDD fejmozgatási ideje általában 8-12 ms."
+    },
+    {
+      "question": "A DRAM memória CAS Latency értéke 5 és 20 között mozoghat.",
+      "answer": "Igaz",
+      "reason": "A CAS Latency értéke a memória típusától és generációjától függően 5 és 20 között változhat."
+    },
+    {
+      "question": "A RAID 0 tömb adatvesztése nélkül működik egy meghajtó kiesésekor.",
+      "answer": "Hamis",
+      "reason": "A RAID 0 egyetlen meghajtó meghibásodása esetén is adatvesztéssel jár."
     }
   ]
 }
