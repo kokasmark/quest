@@ -1443,6 +1443,361 @@
       "question": "A RAID 6 csak egy meghajtó meghibásodását képes kezelni adatvesztés nélkül.",
       "answer": "Hamis",
       "reason": "A RAID 6 akár két meghajtó meghibásodását is képes kezelni adatvesztés nélkül."
+    },
+	{
+      "question": "A floppy lemezek először 8 hüvelykes puhatokos formátumban jelentek meg az IBM által.",
+      "answer": "Igaz",
+      "reason": "Az IBM fejlesztette ki az első 8 hüvelykes floppy lemezt a 1960-as évek második felében."
+    },
+    {
+      "question": "A ZIP drive 100 MB kapacitással jelent meg 1994-ben.",
+      "answer": "Igaz",
+      "reason": "A ZIP drive első verziója 100 MB kapacitású volt, és Bernoulli elven működött."
+    },
+    {
+      "question": "Az SSD-k jellemzően DRAM technológiával működnek.",
+      "answer": "Hamis",
+      "reason": "Az SSD-k NAND Flash technológiát használnak, nem DRAM-ot."
+    },
+    {
+      "question": "A RAID 0 szint redundanciát biztosít.",
+      "answer": "Hamis",
+      "reason": "A RAID 0 szint nem biztosít adatvédelmet vagy redundanciát."
+    },
+    {
+      "question": "A HDD-k adatsűrűsége növelhető a vertikális mágneses információtárolással.",
+      "answer": "Igaz",
+      "reason": "A vertikális adattárolás technológia jelentősen növeli az adatsűrűséget a HDD-kben."
+    },
+    {
+      "question": "Az EEPROM memóriák törlése UV fényt igényel.",
+      "answer": "Hamis",
+      "reason": "Az EEPROM elektronikusan törölhető, UV fényt az EPROM igényel."
+    },
+    {
+      "question": "A plazma kijelzők pixelei RGB cellákból állnak.",
+      "answer": "Igaz",
+      "reason": "Minden pixel három cellából áll, amelyek piros, zöld és kék színekből állnak."
+    },
+    {
+      "question": "A NAND technológia olcsóbb és nagyobb kapacitású chip-eket eredményez, mint a NOR technológia.",
+      "answer": "Igaz",
+      "reason": "A NAND technológia költséghatékonyabb és nagyobb kapacitású."
+    },
+    {
+      "question": "A RAID 5 technológia legalább 4 meghajtót igényel.",
+      "answer": "Hamis",
+      "reason": "A RAID 5 működéséhez minimálisan 3 meghajtó szükséges."
+    },
+    {
+      "question": "A ZBR (Zone Bit Recording) az SSD technológiákhoz kapcsolódik.",
+      "answer": "Hamis",
+      "reason": "A ZBR a HDD technológiák egyik adatkezelési módszere."
+    },
+    {
+      "question": "A 3D XPoint technológia lassabb, mint a NAND Flash technológia.",
+      "answer": "Hamis",
+      "reason": "A 3D XPoint technológia 1000-szer gyorsabb, mint a NAND technológia."
+    },
+    {
+      "question": "Az OLED kijelzők pixeleit háttérvilágítás biztosítja.",
+      "answer": "Hamis",
+      "reason": "Az OLED kijelzők nem igényelnek háttérvilágítást, mert maguk bocsátanak ki fényt."
+    },
+    {
+      "question": "A Little Man Computer egy valós CPU modell.",
+      "answer": "Hamis",
+      "reason": "A Little Man Computer egy oktatási modell, nem valós CPU."
+    },
+    {
+      "question": "A RAID 10 biztonságosabb, mint a RAID 01.",
+      "answer": "Igaz",
+      "reason": "A RAID 10 jobban védi az adatokat meghibásodás esetén, mivel nem omlik össze egy meghajtó kiesésekor."
+    },
+    {
+      "question": "A DRAM memóriák minden cellája egy tranzisztort és egy kondenzátort tartalmaz.",
+      "answer": "Igaz",
+      "reason": "A DRAM cellák építőelemei egy tranzisztor és egy kondenzátor."
+    },
+	{
+      "question": "A ROM memóriák tartalma a gyártás során íródik és nem módosítható.",
+      "answer": "Igaz",
+      "reason": "A ROM (Read-Only Memory) tartalma a gyártás során íródik, és nem lehet módosítani."
+    },
+    {
+      "question": "Az EEPROM cellák törléséhez UV fény szükséges.",
+      "answer": "Hamis",
+      "reason": "Az EEPROM elektronikusan törölhető, nem igényel UV fényt."
+    },
+    {
+      "question": "A RAID 1 technológia adatokat tükröz, hogy redundanciát biztosítson.",
+      "answer": "Igaz",
+      "reason": "A RAID 1 az adatok tükrözésével biztosít redundanciát."
+    },
+    {
+      "question": "Az IGZO kijelzők alacsony energiafogyasztással működnek.",
+      "answer": "Igaz",
+      "reason": "Az IGZO anyag alacsony szivárgóárama csökkenti az energiafogyasztást."
+    },
+    {
+      "question": "A plazma kijelzők működése során UV fényt generálnak a nemesgázok.",
+      "answer": "Igaz",
+      "reason": "Az UV fényt a nemesgázok plazma állapotban generálják."
+    },
+    {
+      "question": "A MicroLED technológia alapja, hogy a pixelek önálló fényforrások.",
+      "answer": "Igaz",
+      "reason": "A MicroLED technológia minden pixelje saját fényt bocsát ki."
+    },
+    {
+      "question": "A RAID 6 lehetővé teszi két meghajtó egyidejű meghibásodását adatvesztés nélkül.",
+      "answer": "Igaz",
+      "reason": "A RAID 6 kettős paritást alkalmaz, amely két meghajtó meghibásodását is kezeli."
+    },
+    {
+      "question": "A 3D XPoint technológia nem használ klasszikus értelemben vett tranzisztorokat.",
+      "answer": "Igaz",
+      "reason": "A 3D XPoint technológia tranzisztor nélküli adattárolási megoldás."
+    },
+    {
+      "question": "A RAID 0+1 jobb adatbiztonságot nyújt, mint a RAID 1+0.",
+      "answer": "Hamis",
+      "reason": "A RAID 1+0 (RAID 10) biztonságosabb, mert csak az érintett tömböt érinti a meghibásodás."
+    },
+    {
+      "question": "Az LCD kijelzők IPS paneljei a legjobb betekintési szöggel rendelkeznek.",
+      "answer": "Igaz",
+      "reason": "Az IPS panelek biztosítják a legjobb betekintési szöget az LCD technológiák között."
+    },
+    {
+      "question": "A VLIW processzorok egyszerre 3 utasítást hajtanak végre.",
+      "answer": "Hamis",
+      "reason": "A VLIW processzorok egyszerre 4 utasítást hajtanak végre."
+    },
+    {
+      "question": "A RISC processzorok kevés regiszterrel rendelkeznek.",
+      "answer": "Hamis",
+      "reason": "A RISC processzorok sok regiszterrel dolgoznak, szemben a CISC processzorokkal."
+    },
+    {
+      "question": "A Touchscreen kapacitív technológiája több érintést is képes egyszerre érzékelni.",
+      "answer": "Igaz",
+      "reason": "A kapacitív érintőképernyők multitouch funkcióval rendelkeznek."
+    },
+    {
+      "question": "A NAND Flash memóriák közvetlen programfuttatásra alkalmasak.",
+      "answer": "Hamis",
+      "reason": "A NAND Flash memóriák nem alkalmasak közvetlen programfuttatásra."
+    },
+    {
+      "question": "A 3D nyomtatók FDM technológiája műanyagszálakat rétegel.",
+      "answer": "Igaz",
+      "reason": "Az FDM nyomtatók olvadt műanyagszálakat helyeznek egymásra."
+    },
+    {
+      "question": "A RAID 5 szintnél az adatok helyreállításához legalább két meghajtó szükséges.",
+      "answer": "Hamis",
+      "reason": "RAID 5 esetében egy meghajtó meghibásodása esetén az adatok még helyreállíthatók."
+    },
+    {
+      "question": "Az OLED kijelzők pixelei képesek teljesen kikapcsolni.",
+      "answer": "Igaz",
+      "reason": "Az OLED pixelek egyenként kikapcsolhatók, így valódi fekete színt érnek el."
+    },
+    {
+      "question": "A RAID technológia célja többek között az adatátviteli sebesség növelése.",
+      "answer": "Igaz",
+      "reason": "A RAID javítja az adatátviteli sebességet az adatok párhuzamos kezelésével."
+    },
+    {
+      "question": "A DVD+R lemezek írása megszakítható és folytatható.",
+      "answer": "Igaz",
+      "reason": "A DVD+R technológia támogatja az írás megszakítását."
+    },
+    {
+      "question": "Az SRAM memóriákban található tranzisztorok száma cellánként kettő.",
+      "answer": "Igaz",
+      "reason": "Az SRAM memóriák cellánként két tranzisztort tartalmaznak."
+    },
+    {
+      "question": "A lézernyomtatók festéket gázzá alakítanak a nyomtatáshoz.",
+      "answer": "Hamis",
+      "reason": "A lézernyomtatók szénport használnak, nem gázzá alakítják a festéket."
+    },
+    {
+      "question": "A TN paneles LCD kijelzők gyors válaszidővel rendelkeznek.",
+      "answer": "Igaz",
+      "reason": "A TN panelek a leggyorsabb válaszidőt kínálják."
+    },
+    {
+      "question": "A Dynamic Disk Pool (DDP) technológia egy lemez meghibásodását képes kezelni.",
+      "answer": "Igaz",
+      "reason": "A DDP technológia akár egy lemez meghibásodása esetén is megőrzi az adatokat."
+    },
+    {
+      "question": "A VLIW processzorok fix méretű utasításokkal dolgoznak.",
+      "answer": "Igaz",
+      "reason": "A VLIW processzorok fix méretű, 128 bites utasításokat használnak."
+    },
+    {
+      "question": "A DRAM memóriákban minden egyes olvasás után újra kell írni az adatokat.",
+      "answer": "Igaz",
+      "reason": "A DRAM jellegéből fakadóan minden olvasás után újraírja az adatokat."
+    },
+    {
+      "question": "A RAID 10 technológia kombinálja a RAID 0 és a RAID 1 előnyeit.",
+      "answer": "Igaz",
+      "reason": "A RAID 10 a RAID 0 sebességét és a RAID 1 biztonságát ötvözi."
+    },
+    {
+      "question": "A RAID 5 esetében a paritás adatokat külön meghajtón tárolják.",
+      "answer": "Hamis",
+      "reason": "RAID 5 esetében a paritás adatok minden meghajtóra elosztva kerülnek tárolásra."
+    },
+	{
+      "question": "Az SRAM memóriák nem igényelnek folyamatos frissítést.",
+      "answer": "Igaz",
+      "reason": "Az SRAM memóriák statikusak, és nem igényelnek ciklikus frissítést, mint a DRAM."
+    },
+    {
+      "question": "A DRAM minden egyes cellája tartalmaz egy tranzisztort és egy ellenállást.",
+      "answer": "Hamis",
+      "reason": "A DRAM cellái egy tranzisztorból és egy kondenzátorból állnak, nem ellenállásból."
+    },
+    {
+      "question": "A Flash memória mozgó alkatrészeket tartalmaz.",
+      "answer": "Hamis",
+      "reason": "A Flash memória nem tartalmaz mozgó alkatrészeket."
+    },
+    {
+      "question": "A CPU ALU egysége aritmetikai műveletekért felel.",
+      "answer": "Igaz",
+      "reason": "Az ALU végzi a számításokat és a logikai műveleteket a CPU-n belül."
+    },
+    {
+      "question": "A RAID 0 technológia gyorsabb írási sebességet biztosít, mint a RAID 1.",
+      "answer": "Igaz",
+      "reason": "A RAID 0 szint az adatok párhuzamos írásával biztosít nagyobb sebességet."
+    },
+    {
+      "question": "Az LCD kijelzők IPS paneljei gyorsabb válaszidővel rendelkeznek, mint a TN panelek.",
+      "answer": "Hamis",
+      "reason": "Az IPS panelek lassabb válaszidővel rendelkeznek, mint a TN panelek."
+    },
+    {
+      "question": "A Blu-ray lemezek nagyobb kapacitásúak, mint a DVD lemezek.",
+      "answer": "Igaz",
+      "reason": "A Blu-ray lemezek több adat tárolására képesek, mint a DVD-k."
+    },
+    {
+      "question": "A RAID 1 tömb adatbiztonsága meghibásodás esetén is megmarad.",
+      "answer": "Igaz",
+      "reason": "A RAID 1 tükrözés biztosítja az adatbiztonságot meghibásodás esetén."
+    },
+    {
+      "question": "Az OLED kijelzők kevesebb energiát fogyasztanak állókép megjelenítésekor.",
+      "answer": "Igaz",
+      "reason": "Az OLED kijelzők csak a világító pixelekhez fogyasztanak energiát."
+    },
+    {
+      "question": "A NAND Flash memória közvetlen programfuttatásra is alkalmas.",
+      "answer": "Hamis",
+      "reason": "A NAND memória nem alkalmas közvetlen programfuttatásra, a NOR memória viszont igen."
+    },
+    {
+      "question": "A RAID 5 egy meghajtó meghibásodása esetén is működőképes marad.",
+      "answer": "Igaz",
+      "reason": "A RAID 5 paritást használ, így egy meghajtó kiesése esetén az adatok helyreállíthatók."
+    },
+    {
+      "question": "A ZINK nyomtatók tintát használnak a nyomtatáshoz.",
+      "answer": "Hamis",
+      "reason": "A ZINK technológia hőérzékeny papírrétegeket használ, nem tintát."
+    },
+    {
+      "question": "A Little Man Computer modellben két regiszter található.",
+      "answer": "Igaz",
+      "reason": "A Little Man Computer két regisztert használ: a program counter-t és az akkumulátort."
+    },
+    {
+      "question": "Az SSD meghajtók tartóssága az SLC technológiával a legjobb.",
+      "answer": "Igaz",
+      "reason": "Az SLC technológia cellánként egy bitet tárol, így tartósabb, mint az MLC vagy TLC."
+    },
+    {
+      "question": "A RAID 6 esetében egy meghajtó meghibásodása az összes adat elvesztését okozza.",
+      "answer": "Hamis",
+      "reason": "A RAID 6 két paritáscsíkot használ, így két meghajtó meghibásodását is kibírja."
+    },
+    {
+      "question": "A DRAM ciklikusan frissíti az adatait, hogy megőrizze őket.",
+      "answer": "Igaz",
+      "reason": "A DRAM kondenzátorai rövid ideig tartják meg a töltést, így ciklikus frissítés szükséges."
+    },
+    {
+      "question": "Az IGZO tranzisztorok gyorsabbak, mint az amorf szilícium tranzisztorok.",
+      "answer": "Igaz",
+      "reason": "Az IGZO tranzisztorok akár 20-50-szer gyorsabbak az amorf szilíciumnál."
+    },
+    {
+      "question": "A RAID 10 több meghajtót igényel, mint a RAID 1+0.",
+      "answer": "Hamis",
+      "reason": "A RAID 10 és a RAID 1+0 azonos meghajtószámot igényel, de eltérő a felépítésük."
+    },
+    {
+      "question": "A 3D XPoint technológia 1000-szer gyorsabb, mint a NAND Flash memória.",
+      "answer": "Igaz",
+      "reason": "A 3D XPoint technológia lényegesen gyorsabb a NAND memóriánál."
+    },
+    {
+      "question": "Az LCD VA paneljeinek kontrasztja jobb, mint az IPS paneleké.",
+      "answer": "Igaz",
+      "reason": "A VA panelek kontrasztja a legjobb az LCD technológiák között."
+    },
+    {
+      "question": "A RAID 5 szint legalább három meghajtót igényel.",
+      "answer": "Igaz",
+      "reason": "A RAID 5 működéséhez minimálisan három meghajtó szükséges."
+    },
+    {
+      "question": "A Blu-ray lemezek olvasása lézeres technológiával történik.",
+      "answer": "Igaz",
+      "reason": "A Blu-ray lemezeket kék lézer segítségével olvassák."
+    },
+    {
+      "question": "Az SRAM lassabb, mint a DRAM.",
+      "answer": "Hamis",
+      "reason": "Az SRAM gyorsabb, mint a DRAM, de drágább is."
+    },
+    {
+      "question": "A RAID 0 redundanciát biztosít az adatok védelme érdekében.",
+      "answer": "Hamis",
+      "reason": "A RAID 0 nem biztosít redundanciát, mivel nincs adatvédelem."
+    },
+    {
+      "question": "Az SSD meghajtók NAND Flash technológiát használnak.",
+      "answer": "Igaz",
+      "reason": "Az SSD meghajtók alapvetően NAND Flash memóriát használnak az adattároláshoz."
+    },
+    {
+      "question": "A RAID 6 két paritásréteget használ.",
+      "answer": "Igaz",
+      "reason": "A RAID 6 dupla paritást alkalmaz a nagyobb adatbiztonság érdekében."
+    },
+    {
+      "question": "A 3D nyomtatók SLA technológiája por alapú anyagokkal dolgozik.",
+      "answer": "Hamis",
+      "reason": "Az SLA technológia folyékony gyantát használ, nem por alapú anyagokat."
+    },
+    {
+      "question": "Az EEPROM memóriák törölhetők és újraprogramozhatók.",
+      "answer": "Igaz",
+      "reason": "Az EEPROM elektronikusan törölhető és újraprogramozható memória."
+    },
+    {
+      "question": "Az OLED kijelzők hajlíthatók, mivel szerves anyagokat használnak.",
+      "answer": "Igaz",
+      "reason": "Az OLED technológia rugalmas, mivel szerves molekulákból áll."
     }
   ]
 }
