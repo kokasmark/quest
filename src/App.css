@@ -13,7 +13,7 @@ body{
   overflow: hidden;
 }
 footer{
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   left: 10vw;
   width: 80vw;
@@ -52,8 +52,16 @@ input[type="file"]::file-selector-button:active {
   background-color: transparent !important;
   border: 2px solid white;
   overflow: visible;
+  width: 50vw;
   max-width: 300px;
+  max-height: 300px;
   overflow: hidden !important;
+  margin-top: 10px;
+}
+.code img{
+  width: 50vw;
+  max-width: 300px;
+  max-height: 300px;
 }
 .code::before{
   content: "Example Quest JSON";
@@ -62,16 +70,11 @@ input[type="file"]::file-selector-button:active {
   width: fit-content;
   height: fit-content;
   position: absolute;
-  transform: translate(10px,-35px);
+  transform: translate(20px,-20px);
   text-shadow: none !important;
   color: white !important;
 }
-.code .token{
-  background-color: transparent !important;
-  text-shadow: none !important;
-  filter: brightness(1.5);
-  font-size: 13px !important;
-}
+
 
 .App {
   display: flex;
@@ -182,3 +185,4 @@ input[type="file"]::file-selector-button:active {
 
   cursor: pointer;
 }
+

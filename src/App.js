@@ -1,7 +1,7 @@
 import React, { useEffect, useState,useRef  } from 'react';
 import './App.css';
 import logo from './assets/logo.png';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import code from './assets/code.png';
 import EmojiParticle from './Particles';
 
 function App() {
@@ -47,16 +47,6 @@ function App() {
     spawnParticles("👋",20);
   },[])
 
-  const jsonCode = `{
-    "title": "Questionaire title",
-    "questions": [
-      {
-        "question": "The grass is green?",
-        "answer": "Igaz",
-        "reason": "Cuz it is"
-      }
-    ]
-  }`;
 
   const parseQuestions = (event) => {
     const file = event.target.files[0];
@@ -128,9 +118,7 @@ function App() {
   return (
     <div className={`App ${questionRight}`}>
       <img style={{width: 256, height: 256}} src={logo}/>
-      {!file &&<div><SyntaxHighlighter language="json" className="code">
-        {jsonCode}
-      </SyntaxHighlighter></div>}
+      {!file &&<div className='code'><img src={code} /></div>}
       <br />
       {!file &&<div style={{display: 'flex', flexDirection: 'row', gap: 10, alignItems: 'center',justifyContent: 'center'}}>
         <h1 className='btn' onClick={()=>setquestionNum(questionNum+1)}>+</h1>
