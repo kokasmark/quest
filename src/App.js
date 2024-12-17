@@ -22,6 +22,7 @@ function App() {
   const [particles, setParticles] = useState([]);
   const timeoutRef = useRef(null); // Store the timeout ID
   const [staticQuestionaires, setStaticQuestionaires] = useState([])
+  const [checkAnswers,setCheckAnswers] = useState(null);
 
   const spawnParticles = (emoji, count = 10) => {
     if (timeoutRef.current) {
@@ -173,9 +174,11 @@ function App() {
       {/* {!file &&<div className='code'><img src={code} /></div>} */}
       {!file && <div className='static-files'>
         {staticQuestionaires.map((staticFile, index) => (
-          <div className='static-file' onClick={() => parseQuestions(null, staticFile)}>
-            <h3>{staticFile.title}</h3>
+          <div className='static-file'>
+            <h3 onClick={() => parseQuestions(null, staticFile)}>{staticFile.title}</h3>
             <p>{Object.values(staticFile.questions).length} questions</p>
+            <p style={{width: '100%', borderTop: '1px solid white',paddingTop: 20}}
+            onClick={()=>setCheckAnswers(staticFile)}></p>
           </div>
         ))}
       </div>}
@@ -191,7 +194,6 @@ function App() {
       {file && (
         <div className='file'>
           <h2>{file.title}</h2>
-          <h3>{rightAnswers} / {QLength}</h3>
           <div className='questions'>
             <div className={`question ${rotation == 45 ? "rot-true" : ""} ${rotation == -45 ? "rot-false" : ""} ${questionRight}`}
               style={{
@@ -207,6 +209,8 @@ function App() {
                   onPointerEnter={() => setrotation(45)}
                   onClick={() => Answer("Igaz", file.questions[current])}></div>
               </div>
+
+              <p style={{ color: "#1aa2dc" }}>#{current+1}</p>
               <p style={{ color: "#1aa2dc" }}>{file.questions[current].question}</p>
 
               {file.questions[current].reason && showReason &&

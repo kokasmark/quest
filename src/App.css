@@ -54,6 +54,7 @@ input[type="file"]::file-selector-button:active {
   width: 80vw;
   height: fit-content;
   justify-content: flex-start;
+  align-items: center;
   
   overflow-x: auto;
   padding: 0 10vw;
@@ -63,16 +64,18 @@ input[type="file"]::file-selector-button:active {
 }
 
 .static-file{
+  color: white;
   text-align: center;
   border: 2px solid #1aa2dc;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
-  min-width: 150px;
+  min-width: 250px;
+  width: fit-content;
+  height: fit-content;
 }
 .static-file:hover{
-  color: white;
   background-color: #1aa2dc;
   margin: 0px 10px 0px 10px;
 }
@@ -101,6 +104,7 @@ input[type="file"]::file-selector-button:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  top: 10vh;
 }
 .question{
   position: absolute;
@@ -108,9 +112,10 @@ input[type="file"]::file-selector-button:active {
   left: 0px;
   background-color: white;
   width: 20vw;
+  height: fit-content;
   min-width: 250px;
   max-width: 350px;
-  height: 200px;
+  min-height: 200px;
   padding: 10px;
   color: black;
 
@@ -186,4 +191,3 @@ input[type="file"]::file-selector-button:active {
 
   cursor: pointer;
 }
-
