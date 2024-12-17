@@ -174,8 +174,8 @@ function App() {
       {/* {!file &&<div className='code'><img src={code} /></div>} */}
       {!file && <div className='static-files'>
         {staticQuestionaires.map((staticFile, index) => (
-          <div className='static-file'>
-            <h3 onClick={() => parseQuestions(null, staticFile)}>{staticFile.title}</h3>
+          <div className='static-file' onClick={() => parseQuestions(null, staticFile)}>
+            <h3>{staticFile.title}</h3>
             <p>{Object.values(staticFile.questions).length} questions</p>
             <p style={{width: '100%', borderTop: '1px solid white',paddingTop: 20}}
             onClick={()=>setCheckAnswers(staticFile)}></p>
