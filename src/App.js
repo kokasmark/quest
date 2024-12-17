@@ -16,17 +16,17 @@ function App() {
   const [questionNum, setquestionNum] = useState(30);
   const [particles, setParticles] = useState([]);
 
-  const spawnParticles = (answerCorrect) => {
-    const emoji = answerCorrect ? "👍" : "👎";
-    const newParticles = Array.from({ length: 10 }, (_, index) => {
-      const randomX = (index * window.innerWidth/10);
-      const randomY = (300+Math.random() * 100);
+  const spawnParticles = (emoji,count=10) => {
+    const newParticles = Array.from({ length: count }, (_, index) => {
+      const randomX = (index * window.innerWidth/count);
+      const randomY = (0+Math.random() * 600);
       return (
         <EmojiParticle
           key={Date.now() + index}
           emoji={emoji}
           startX={randomX}
           startY={randomY}
+          delay={index/count +Math.random()}
         />
       );
     });
@@ -84,13 +84,16 @@ function App() {
   
 
   const Answer = (answer, question) => {
+    let ra = rightAnswers;
     if (answer === question.answer) {
       setQuestionRight("success");
       setrightAnswers(rightAnswers + 1);
-      spawnParticles(true)
+      spawnParticles("👍",20)
+
+      ra+=1;
     } else {
       setQuestionRight("fail");
-      spawnParticles(false,)
+      spawnParticles("👎",20)
     }
     setShowReason(true);
     setTimeout(() => {
@@ -103,6 +106,7 @@ function App() {
       }else{
         setFile(null);
         setshowResult(true);
+        spawnParticles((ra/QLength) >= 0.5 ? "✅" : "❌",20)
         setTimeout(() => {
           setshowResult(false);
         }, 3000);
@@ -154,13 +158,13 @@ function App() {
         </div>
       )}
       {showResult && 
-        <div style={{position: "absolute", width:"100%",height: "100%", backgroundColor: rightAnswers/QLength > 0.5 ? "greenyellow" : "red",
+        <div style={{position: "absolute", width:"100%",height: "100%", backgroundColor: rightAnswers/QLength >= 0.5 ? "var(--true)" : "var(--false)",
           display: "flex",alignItems: "center", justifyContent: "center"
         }}>
           <h1>{rightAnswers} / {QLength}</h1>
         </div>}
         
-        <div className="particle-container">
+        <div className="particle-container" style={{position: "absolute", top: 0,left:0}}>
         {particles}
         </div>
 
