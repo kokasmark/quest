@@ -52,9 +52,11 @@ input[type="file"]::file-selector-button:active {
   flex-direction: row;
   gap: 5px;
   width: 80vw;
+  height: fit-content;
   justify-content: flex-start;
   
   overflow-x: auto;
+  overflow-y: hidden;
   padding: 0 10vw;
   
   scroll-snap-type: x mandatory;
