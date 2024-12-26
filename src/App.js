@@ -139,7 +139,7 @@ function App() {
 
   const Answer = (answer, question) => {
     let ra = rightAnswers;
-    if (answer === question.answer.toLowerCase()) {
+    if (answer.toLowerCase() === question.answer) {
       setQuestionRight("success");
       setrightAnswers(rightAnswers + 1);
       spawnParticles("👍", 20)
