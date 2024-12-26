@@ -2,779 +2,798 @@
     "title": "DLR kérdések",
     "questions": [{
         "question": "Az analóg hálózatok folytonos változóként határozhatók meg, mint például feszültség vagy áram.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az analóg hálózatok jelei folyamatosak, például feszültség."
     },
     {
         "question": "A digitális hálózatok bemeneti és kimeneti jelei kizárólag két értéket vehetnek fel: 0 és 1.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A digitális hálózatok bináris jeleket használnak."
     },
     {
         "question": "A digitális-analóg átalakítók szükségessége mindig az adott működési specifikációtól függ.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A használatuk specifikációfüggő."
     },
     {
         "question": "A Boole-algebra egy háromértékű logikai rendszer alapja.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "A Boole-algebra kétértékű rendszeren alapul."
     },
     {
         "question": "A Boole-algebra alapműveletei közé tartozik az 'ÉS', a 'VAGY', és a 'tagadás'.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az 'ÉS', 'VAGY', és 'tagadás' alapműveletek."
     },
     {
         "question": "A pozitív logika alapértelmezett az elektronikus áramkörök tervezésében.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A pozitív logika a tervezés alapja."
     },
     {
         "question": "A De-Morgan azonosságok segítségével minden típusú logikai kapuszintű realizáció felépíthető.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A De-Morgan azonosságok átalakítást tesznek lehetővé."
     },
     {
         "question": "Egy kombinációs hálózat minden bemeneti variációhoz több kimeneti kombinációt is rendelhet.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Egy bemenethez csak egy kimenet tartozik."
     },
     {
         "question": "A kombinációs hálózatok kimeneti variációit igazságtáblázatokkal is meg lehet adni.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az igazságtáblázatok a kimeneteket ábrázolják."
     },
     {
         "question": "Az igazságtáblázat kizárólag a mintermes kanonikus normál alakot használja.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Az igazságtáblázat más formákat is támogat."
     },
     {
         "question": "A Karnaugh-tábla a logikai egyszerűsítési folyamatokat segíti.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A Karnaugh-tábla vizuális egyszerűsítést biztosít."
     },
     {
         "question": "A logikai függvények egyszerűsítéséhez csak a Karnaugh-módszer használható.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Több módszer is létezik egyszerűsítésre."
     },
     {
         "question": "A Quine-McCluskey módszer egy számítógépes logikai szintézisre is alkalmas eljárás.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A módszer gépesíthető."
     },
     {
         "question": "Az egyszerűsített logikai függvények mindig ugyanazokat az eredményeket adják, mint az eredeti függvények.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az egyszerűsítés nem változtat az eredményen."
     },
     {
         "question": "A NAND kapukkal nem lehet minden logikai függvényt megvalósítani.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "A NAND kapuk univerzálisak."
     },
     {
         "question": "A Karnaugh-tábla geometriai reprezentációja segít a logikai szomszédosság felismerésében.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A geometriai elrendezés könnyíti a felismerést."
     },
     {
-        "question": "A mintermek és maxtermek a Boole-algebra alapvető részei.",
-        "answer": "igaz"
+        "question": "A mintermes és maxtermes alakok a Boole-algebra részei.",
+        "answer": "igaz",
+        "reason": "Ezek a logikai függvényformák alapjai."
     },
     {
         "question": "A logikai függvények kapuszintű vázlatát csak IEEE szabvány szerint lehet megadni.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Más szabványok is léteznek."
     },
     {
         "question": "A Boole-algebra szabályai nem alkalmazhatók a kombinációs hálózatok tervezésében.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "A Boole-algebra az alapja a tervezésnek."
     },
     {
         "question": "Az inverter kapu csak pozitív logikában működik.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Az inverter mindkét logikában működik."
     },
     {
         "question": "A Quine módszer a logikai függvények egyszerűsítésére használható.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A módszer az egyszerűsítést célozza."
     },
     {
         "question": "A logikai összevonás szomszédos mintermeket köt össze a Karnaugh-táblán.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az összevonás szomszédos értékeken alapul."
     },
     {
         "question": "A logikai változók értékei a mintermekben és maxtermekben eltérően jelennek meg.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A logikai változók különböző formákat öltenek."
     },
     {
         "question": "A kombinációs hálózatok tervezése során mindig teljesen specifikált hálózatokat használunk.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Nem minden hálózat teljesen specifikált."
     },
     {
         "question": "A Karnaugh-tábla szerkezete mindig a változók számától függ.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A változók száma határozza meg a táblázat méretét."
     },
     {
         "question": "A Karnaugh-tábla kizárólagosan logikai szomszédosságot biztosít.",
-        "answer": "hamis"
+        "answer": "hamis",
+        "reason": "Nem minden szomszédosság geometriai."
     },
     {
         "question": "A logikai hálózatok tervezése során használhatók redundáns prímimplikánsok is.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A redundáns prímimplikánsok segítenek a megvalósításban."
     },
     {
         "question": "A NAND kapuk tiszta használata esetén megengedett az inverterek alkalmazása.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az invertereket kombinálják NAND kapukkal."
     },
     {
         "question": "A kombinációs hálózatok viselkedése mindig logikai függvényekkel írható le.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A logikai függvények alapvetőek a hálózatokhoz."
     },
     {
         "question": "A logikai függvények algebrai alakját az igazságtáblázatokból olvashatjuk ki.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Az igazságtáblázat mutatja az algebrai alakot."
     },
     {
-        "question": "A mintermes kanonikus normál alak kizárólagos a logikai függvények megadására.",
-        "answer": "hamis"
+        "question": "A digitális hálózatok működését kizárólag Boole-algebra szabályai írják le.",
+        "answer": "hamis",
+        "reason": "Más matematikai módszerek is használhatók."
     },
     {
-        "question": "A többkimenetű kombinációs hálózatok minden kimenetére külön logikai függvény tartozik.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok kimenete az aktuális bemenetek függvénye.",
+        "answer": "igaz",
+        "reason": "A kimenet mindig az adott bemenetektől függ."
     },
     {
-        "question": "A közös prímimplikánsok egyszeri megvalósítása segíti a kombinációs hálózatok egyszerűsítését.",
-        "answer": "igaz"
+        "question": "A logikai 'ÉS' művelet disztributív a 'VAGY' műveletre.",
+        "answer": "igaz",
+        "reason": "Ez a Boole-algebra egyik alapelve."
     },
     {
-        "question": "A digitális hálózatok tervezésében az antivalencia és az ekvivalencia kapuk nem használhatók.",
-        "answer": "hamis"
+        "question": "A logikai függvények egyszerűsítése során minden mintermet megtartunk.",
+        "answer": "hamis",
+        "reason": "Csak a szükséges mintermeket tartjuk meg."
     },
     {
-        "question": "A logikai hálózatok tervezése során mindig használunk De-Morgan azonosságokat.",
-        "answer": "igaz"
+        "question": "A NAND kapu univerzális logikai kapu.",
+        "answer": "igaz",
+        "reason": "Minden logikai művelet megvalósítható vele."
     },
     {
-        "question": "A Quine-McCluskey módszer a bináris kódok távolsága helyett a decimális értékek alapján dolgozik.",
-        "answer": "igaz"
+        "question": "Az XOR kapu kimenete mindig 1, ha a bemenetek különbözőek.",
+        "answer": "igaz",
+        "reason": "Ez az XOR kapu definíciója."
     },
     {
-        "question": "A logikai hálózatokban az XOR művelet azonos az ekvivalencia művelettel.",
-        "answer": "hamis"
+        "question": "A logikai hálózatok mindig csak kétértékű változókat használnak.",
+        "answer": "hamis",
+        "reason": "Nem minden logikai hálózat bináris."
     },
     {
-        "question": "A Karnaugh-táblák megkönnyítik a logikai függvények vizuális egyszerűsítését.",
-        "answer": "igaz"
+        "question": "A mintermes és maxtermes alak egyaránt kanonikus formát képvisel.",
+        "answer": "igaz",
+        "reason": "Mindkettő szabványos formátum."
     },
     {
-        "question": "Az igazságtáblázatok csak teljesen specifikált kombinációs hálózatok esetén alkalmazhatók.",
-        "answer": "hamis"
+        "question": "A Karnaugh-tábla kizárólag négyszögletes mezőkből áll.",
+        "answer": "hamis",
+        "reason": "A mezők lehetnek csoportosítva is."
     },
     {
-        "question": "A negált műveletek minden logikai hálózatban szükségesek.",
-        "answer": "hamis"
+        "question": "A logikai tagadás mindig megváltoztatja a bemeneti értéket.",
+        "answer": "igaz",
+        "reason": "Ez a tagadás alapelve."
     },
     {
-        "question": "Az európai és az IEEE szabványok eltérő logikai kapu szimbólumokat használnak.",
-        "answer": "igaz"
+        "question": "A Boole-algebra egy speciális esete a többértékű logikának.",
+        "answer": "hamis",
+        "reason": "A Boole-algebra kizárólag kétértékű logika."
     },
     {
-        "question": "A Boole-algebra szabályai közé tartozik a kommutativitás és az asszociativitás.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok bemeneti változói folyamatos jeleket képviselhetnek.",
+        "answer": "hamis",
+        "reason": "Csak diszkrét jeleket használnak."
     },
     {
-        "question": "A logikai függvények megadására nem használhatóak grafikus szimbólumok.",
-        "answer": "hamis"
+        "question": "Az igazságtáblázat minden lehetséges bemenethez egy kimeneti értéket rendel.",
+        "answer": "igaz",
+        "reason": "Ez az igazságtáblázat alapvető célja."
     },
     {
-        "question": "A többváltozós Karnaugh-táblákban az összevonható termek geometriailag szomszédosak.",
-        "answer": "igaz"
+        "question": "A De-Morgan azonosságok kizárólag egyszerűsítésre használhatók.",
+        "answer": "hamis",
+        "reason": "Más átalakításokhoz is használhatók."
     },
     {
-        "question": "A kombinációs hálózatok csak pozitív logikát használnak.",
-        "answer": "hamis"
+        "question": "A logikai hálózatok időfüggetlenek, ha kombinációs hálózatként működnek.",
+        "answer": "igaz",
+        "reason": "A kombinációs hálózatok időfüggetlenek."
     },
     {
-        "question": "Az egyszerűsítési eljárások célja a logikai hálózat megvalósításának optimalizálása.",
-        "answer": "igaz"
+        "question": "Az '1' értékű mintermek a Karnaugh-táblán prímimplikánsokat alkothatnak.",
+        "answer": "igaz",
+        "reason": "Csak az '1' értékekből képződnek prímimplikánsok."
     },
     {
-        "question": "A kombinációs hálózatok tervezése során minden esetben Karnaugh-táblákat használunk.",
-        "answer": "hamis"
+        "question": "A Karnaugh-táblák mezői a Hamming-távolság szerint helyezkednek el.",
+        "answer": "igaz",
+        "reason": "Ez a tábla alapelve."
     },
     {
-        "question": "A logikai változók értéke mindig diszkrét változókat képvisel.",
-        "answer": "igaz"
+        "question": "A logikai hálózatok kimeneti értékei kizárólag a bemeneti értékek logikai kombinációján alapulnak.",
+        "answer": "igaz",
+        "reason": "A hálózatok logikai függvények alapján működnek."
     },
     {
-        "question": "Az analóg-digitális átalakító az analóg jeleket digitális formára alakítja.",
-        "answer": "igaz"
+        "question": "A XOR kapu értéke mindig 0, ha a bemenetek azonosak.",
+        "answer": "igaz",
+        "reason": "Ez az XOR kapu definíciója."
     },
     {
-        "question": "A logikai kapuk működése kizárólag az IEEE szabvány szerint definiált.",
-        "answer": "hamis"
+        "question": "A kombinációs hálózatok megvalósításához időzítési elemek szükségesek.",
+        "answer": "hamis",
+        "reason": "Időzítési elemek nem szükségesek."
     },
     {
-        "question": "A Boole-algebra lehetővé teszi logikai változók egyszerűsített kezelését.",
-        "answer": "igaz"
+        "question": "A NAND kapu kimenete csak akkor 0, ha mindkét bemenet 1.",
+        "answer": "igaz",
+        "reason": "Ez a NAND kapu működési elve."
     },
     {
-        "question": "A logikai függvények mintermes és maxtermes alakja egyaránt használható.",
-        "answer": "igaz"
+        "question": "Az igazságtáblázat minden sorában a változók egyedi kombinációi szerepelnek.",
+        "answer": "igaz",
+        "reason": "Az igazságtáblázat minden bemenetet lefed."
     },
     {
-        "question": "A De-Morgan azonosságok tagadásokat helyettesítenek az egyszerűsítések során.",
-        "answer": "igaz"
+        "question": "Az analóg-digitális átalakítók a digitális hálózatok kimenetét állítják elő.",
+        "answer": "hamis",
+        "reason": "Az analóg bemeneteket alakítják át digitálissá."
     },
     {
-        "question": "A kombinációs hálózatok minden bemenethez csak egyetlen kimenetet rendelhetnek.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok kimeneti értékei nem függhetnek a bemenetektől.",
+        "answer": "hamis",
+        "reason": "A kimenet a bemenetek függvénye."
     },
     {
-        "question": "Az analóg jeleket nem lehet digitalizálni.",
-        "answer": "hamis"
+        "question": "A XOR művelet nem asszociatív.",
+        "answer": "igaz",
+        "reason": "A XOR művelet asszociativitása nem teljesül."
     },
     {
-        "question": "A logikai hálózatok kétértékű rendszerekben működnek.",
-        "answer": "igaz"
+        "question": "A logikai 'ÉS' és 'VAGY' műveletek egymás inverzei.",
+        "answer": "hamis",
+        "reason": "A 'ÉS' és 'VAGY' nem egymás inverzei."
     },
     {
-        "question": "A logikai 'ÉS' művelet csak akkor ad 1 értéket, ha mindkét operandusa 1.",
-        "answer": "igaz"
+        "question": "A mintermek a logikai 'ÉS' művelet eredményei.",
+        "answer": "igaz",
+        "reason": "A mintermek az 'ÉS' műveleten alapulnak."
     },
     {
-        "question": "A logikai kapuk szimbólumai az európai és amerikai szabvány szerint is egységesek.",
-        "answer": "hamis"
+        "question": "A Boole-algebra szabályai kizárólag pozitív logikára vonatkoznak.",
+        "answer": "hamis",
+        "reason": "Negatív logikára is alkalmazhatók."
     },
     {
-        "question": "A Karnaugh-táblák segítenek az egyszerűsítési lehetőségek vizuális megjelenítésében.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A kombinációs hálózatok tervezése során az összes lehetséges bemeneti variációt figyelembe kell venni.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Quine-McCluskey módszer csak kis bemeneti változószámú hálózatokra alkalmazható.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A mintermes kanonikus normál alak minden változót tartalmaz egy termben.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az igazságtáblázatokban minden bemeneti kombinációhoz egy kimeneti értéket rendelünk.",
-        "answer": "igaz"
+        "question": "A logikai 'VAGY' művelet kimenete mindig 1, ha legalább egy bemenet 1.",
+        "answer": "igaz",
+        "reason": "Ez a 'VAGY' művelet alapelve."
     },
     {
         "question": "A NAND kapukkal minden logikai művelet megvalósítható.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "A NAND kapuk univerzálisak."
     },
     {
-        "question": "A logikai hálózatok szimbólumainak használata független a regionális szabványoktól.",
-        "answer": "hamis"
+        "question": "A logikai függvények kanonikus alakjai kizárólag a Karnaugh-táblákból olvashatók le.",
+        "answer": "hamis",
+        "reason": "Más módszerekkel is leolvashatók."
     },
     {
-        "question": "A Boole-algebra asszociativitása lehetővé teszi a logikai kifejezések átrendezését.",
-        "answer": "igaz"
+        "question": "A logikai tagadás kimenete mindig az eredeti bemenet ellentéte.",
+        "answer": "igaz",
+        "reason": "Ez a tagadás alapelve."
     },
     {
-        "question": "A De-Morgan azonosságok alkalmazása csak pozitív logikában érvényes.",
-        "answer": "hamis"
+        "question": "A Karnaugh-tábla csoportosításánál az irredundáns prímimplikánsok figyelembe vehetők.",
+        "answer": "igaz",
+        "reason": "A csoportosítás célja az egyszerűsítés."
     },
     {
-        "question": "Az ekvivalencia kapu kizárólag akkor ad 1-et, ha a bemenetek azonosak.",
-        "answer": "igaz"
+        "question": "Az igazságtáblázatban a bemeneti változók sorrendje nem számít.",
+        "answer": "hamis",
+        "reason": "A sorrend meghatározza a táblázatot."
     },
     {
-        "question": "A Karnaugh-táblák csak kéttagú logikai változók esetén használhatók.",
-        "answer": "hamis"
+        "question": "A kombinációs hálózatok minden bemeneti kombinációhoz pontos kimenetet rendelnek.",
+        "answer": "igaz",
+        "reason": "Ez a kombinációs hálózatok alapelve."
     },
     {
-        "question": "Az inverter kapu egyetlen bemenetet fogad és annak tagadását adja eredményül.",
-        "answer": "igaz"
+        "question": "A NAND kapu kimenete megegyezik az 'ÉS' kapu kimenetével.",
+        "answer": "hamis",
+        "reason": "A NAND az 'ÉS' tagadása."
     },
     {
-        "question": "A Quine-módszer alapja a mintermek közös tényezőinek azonosítása.",
-        "answer": "igaz"
+        "question": "A XOR kapu használható bináris összeadás megvalósítására.",
+        "answer": "igaz",
+        "reason": "A XOR a bináris összeadás alapja."
     },
     {
-        "question": "A logikai hálózatok működését csak algebrai kifejezésekkel adhatjuk meg.",
-        "answer": "hamis"
+        "question": "A Boole-algebra csak kétváltozós műveletekre alkalmazható.",
+        "answer": "hamis",
+        "reason": "Többváltozós műveletekre is alkalmazható."
     },
     {
-        "question": "A NAND kapuk kizárólag negatív logikával működnek.",
-        "answer": "hamis"
+        "question": "A Karnaugh-táblán történő csoportosítás célja a redundancia megszüntetése.",
+        "answer": "igaz",
+        "reason": "Ez az egyszerűsítés célja."
     },
     {
-        "question": "Az antivalencia kapu 1-et ad, ha a bemenetek eltérőek.",
-        "answer": "igaz"
+        "question": "Az igazságtáblázat nem használható nem teljesen specifikált logikai függvényekhez.",
+        "answer": "hamis",
+        "reason": "Közömbös értékekkel is használható."
     },
     {
-        "question": "A Karnaugh-táblák lehetővé teszik a logikai szomszédosság geometriai ábrázolását.",
-        "answer": "igaz"
+        "question": "A logikai kapuk működését kizárólag matematikai modellek írják le.",
+        "answer": "hamis",
+        "reason": "Más, gyakorlati modellek is léteznek."
     },
     {
-        "question": "Az analóg hálózatok logikai kapuszintű realizációval valósíthatók meg.",
-        "answer": "hamis"
+        "question": "Az inverterek kimeneti értékei azonosak a bemenetekkel.",
+        "answer": "hamis",
+        "reason": "Az inverter kimenete a bemenet ellentéte."
     },
     {
-        "question": "A logikai függvények grafikus szimbólumokkal történő megadása szabványosított.",
-        "answer": "igaz"
+        "question": "A Boole-algebra kommutativitási szabálya a műveletek sorrendjét cserélhetővé teszi.",
+        "answer": "igaz",
+        "reason": "Ez a kommutativitás definíciója."
     },
     {
-        "question": "A logikai algebrában az idempotencia törvénye kimondja, hogy A + A = A.",
-        "answer": "igaz"
+        "question": "A Boole-algebra szabályai közé tartozik az asszociativitás és a kommutativitás.",
+        "answer": "igaz",
+        "reason": "Ezek a Boole-algebra alapvető törvényei."
     },
     {
-        "question": "A logikai függvények algebrai egyszerűsítése során mindig csökken a változók száma.",
-        "answer": "hamis"
+        "question": "A Karnaugh-táblák kizárólag 4 vagy annál kevesebb változós logikai függvényekhez használhatók.",
+        "answer": "hamis",
+        "reason": "A Karnaugh-táblák több változó esetén is használhatók."
     },
     {
-        "question": "A maxtermes kanonikus normál alak az összes változó logikai összegét tartalmazza.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok minden kimenete kizárólag az aktuális bemenetektől függ.",
+        "answer": "igaz",
+        "reason": "A kombinációs hálózatok időfüggetlenek."
     },
     {
-        "question": "A Quine-McCluskey módszer nem alkalmazható számítógépes logikai szintézisre.",
-        "answer": "hamis"
+        "question": "A Quine-McCluskey módszer csak kézi egyszerűsítésre alkalmas.",
+        "answer": "hamis",
+        "reason": "A módszer gépesíthető is."
     },
     {
-        "question": "A logikai hálózatok teljes működési specifikációját az igazságtáblázatok adják meg.",
-        "answer": "igaz"
+        "question": "A NAND kapukkal bármilyen logikai függvény megvalósítható.",
+        "answer": "igaz",
+        "reason": "A NAND kapuk univerzális logikai elemek."
     },
     {
-        "question": "A Boole-algebra disztributivitási szabálya lehetővé teszi a kifejezések átrendezését.",
-        "answer": "igaz"
+        "question": "Az XOR kapu kimenete 1, ha a bemenetek különböznek.",
+        "answer": "igaz",
+        "reason": "Az XOR kapu a különbséget jelzi."
     },
     {
-        "question": "A Karnaugh-tábla csak a pozitív logikai függvények ábrázolására használható.",
-        "answer": "hamis"
+        "question": "A logikai 'ÉS' kapu értéke mindig 0, ha mindkét bemenet 0.",
+        "answer": "igaz",
+        "reason": "Az 'ÉS' művelet alapelve."
     },
     {
-        "question": "A Karnaugh-tábla mezőinek szomszédossága a Hamming-távolságon alapul.",
-        "answer": "igaz"
+        "question": "A logikai 'VAGY' művelet asszociatív, de nem kommutatív.",
+        "answer": "hamis",
+        "reason": "A 'VAGY' művelet asszociatív és kommutatív."
     },
     {
-        "question": "Az egyszerűsítés során az '1' értékű mintermek alkotják a prímimplikánsokat.",
-        "answer": "igaz"
+        "question": "A Karnaugh-tábla szomszédos cellái mindig csak egy változóban különböznek.",
+        "answer": "igaz",
+        "reason": "Ez a Hamming-távolság szabálya."
     },
     {
-        "question": "A kombinációs hálózatok nem tartalmazhatnak közömbös kimeneti értékeket.",
-        "answer": "hamis"
+        "question": "Az igazságtáblázatok csak mintermeket tartalmazhatnak.",
+        "answer": "hamis",
+        "reason": "Az igazságtáblázatok maxtermeket is tartalmazhatnak."
     },
     {
-        "question": "Az egykimenetű kombinációs hálózatok mindig egyetlen logikai függvényt követnek.",
-        "answer": "igaz"
+        "question": "Az inverter kapu bemenetének negáltját adja kimenetként.",
+        "answer": "igaz",
+        "reason": "Ez az inverter kapu funkciója."
     },
     {
-        "question": "A digitális hálózatok csak teljesen specifikált bemeneti variációkkal működnek.",
-        "answer": "hamis"
+        "question": "A kombinációs hálózatok mindig tartalmaznak memóriaelemeket.",
+        "answer": "hamis",
+        "reason": "A kombinációs hálózatok nem tartalmaznak memóriát."
     },
     {
-        "question": "Az analóg hálózatok nem használhatók a modern elektronikus architektúrákban.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A Karnaugh-táblák kialakításakor figyelembe kell venni a változók számát.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai függvények egyszerűsítése minimalizálja a logikai kapuk számát.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A kombinációs hálózatok tervezése során figyelmen kívül hagyhatjuk az elnyelési törvényeket.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A kombinációs hálózatok tervezése magában foglalhatja a közös prímimplikánsok keresését.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai változók mindig bináris értékeket vesznek fel.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A mintermes és maxtermes normál alakok között konverzió lehetséges.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A többkimenetű kombinációs hálózatokat mindig különálló logikai függvények írják le.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A Boole-algebra identitási törvénye kimondja, hogy A + 0 = A és A • 1 = A.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Karnaugh-tábla kialakítása során a Hamming-távolság mindig 2 kell legyen.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A Quine-módszer során az összevonható mintermek közös tényezői kerülnek kiemelésre.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az analóg bemeneti jeleket az analóg-digitális átalakítók továbbítják a központi egység felé.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A negált szorzat NEM-ÉS kapuval valósítható meg.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A digitális hálózatok alapja a kétértékű logikai rendszerek működése.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A kapuszintű logikai hálózatok realizációja független a használt szimbólumrendszertől.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az igazságtáblázat kimeneti értékei között szerepelhetnek 'közömbös' (don’t care) értékek.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai hálózatokban használt AND kapu mindig két vagy több bemenetet fogad.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Karnaugh-tábla minimalizálási eljárása kizárólag teljesen specifikált függvényekre alkalmazható.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A disztributivitási szabály szerint A • (B + C) = A • B + A • C.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai 'VAGY' művelet mindig 0-t ad, ha mindkét bemenet 0.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A digitális hálózatok kizárólag logikai függvényekkel működnek.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A NEM-VAGY kapu kimenete csak akkor lesz 0, ha mindkét bemenet 1.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az analóg-digitális átalakítás kódolási módszereket alkalmaz.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A kombinációs hálózatok minden bemenetét logikai változók reprezentálják.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Boole-algebra alapműveleteinek jelölése egységes minden szabványban.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A logikai 'ÉS' művelet asszociatív tulajdonságú.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai szomszédosság és a geometriai szomszédosság a Karnaugh-táblán mindig azonos.",
-        "answer": "hamis"
+        "question": "A De-Morgan azonosságok alkalmazásával bármely logikai kifejezés átalakítható.",
+        "answer": "igaz",
+        "reason": "Ez az azonosságok lényege."
     },
     {
         "question": "A Boole-algebra elnyelési törvénye szerint A + (A • B) = A.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Ez az elnyelési törvény alapelve."
     },
     {
-        "question": "A De-Morgan azonosságok segítségével a logikai 'ÉS' és 'VAGY' műveletek felcserélhetők.",
-        "answer": "igaz"
+        "question": "A Karnaugh-táblákban a csoportosítás kizárólag lineáris lehet.",
+        "answer": "hamis",
+        "reason": "A csoportosítás téglalap alakú is lehet."
     },
     {
-        "question": "Az XOR kapu kimenete csak akkor lesz 1, ha a bemenetek azonosak.",
-        "answer": "hamis"
+        "question": "Az XOR művelet ekvivalens a Boole-algebrában használt 'VAGY' művelettel.",
+        "answer": "hamis",
+        "reason": "Az XOR és a 'VAGY' különböző műveletek."
     },
     {
-        "question": "A NAND kapu kizárólag két bemenettel működhet.",
-        "answer": "hamis"
+        "question": "Az analóg jelek digitalizálása az analóg-digitális átalakítók feladata.",
+        "answer": "igaz",
+        "reason": "Az átalakítók erre szolgálnak."
     },
     {
-        "question": "A logikai függvények algebrai alakjában a szorzás jelét gyakran elhagyjuk.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai hálózatok működése mindig diszkrét bemeneti értékekkel kezdődik.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az analóg bemeneti jelek digitalizálása mindig analóg kimenetet eredményez.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A Karnaugh-tábla használata lehetővé teszi az irredundáns prímimplikánsok azonosítását.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai 'tagadás' művelete minden esetben bináris.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az egyszerűsített logikai kifejezések több prímimplikánst tartalmaznak, mint az eredetiek.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az európai szabvány szerint a logikai kapuk jelölése eltérhet az IEEE szabványtól.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az inverter kapu kimenete azonos a bemeneti értékével.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A mintermes kanonikus normál alak kizárólag az '1' értékű függvényértékekből áll.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Karnaugh-táblán történő egyszerűsítés célja a minimális lefedettség biztosítása.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az igazságtáblázat minden bemeneti kombinációhoz pontos kimeneti értéket rendel.",
-        "answer": "igaz"
-    },
-    {
-        "question": "Az analóg jelek közvetlenül feldolgozhatók digitális áramkörökkel.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A logikai függvények elvi vázlata a kapuszintű működés szemléltetésére szolgál.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A kombinációs hálózatokban a kimeneti értékek csak az aktuális bemenetektől függnek.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A Karnaugh-tábla szerkezete független a változók számától.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A logikai 'ÉS' kapu kimenete csak akkor lesz 0, ha bármelyik bemenet 0.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az analóg hálózatokban a bemenetek folyamatos értékeket vehetnek fel.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A mintermek bináris ábrázolása segít az igazságtáblázatok rendezésében.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai kapuk működése kizárólag a kimeneti értékekre támaszkodik.",
-        "answer": "hamis"
-    },
-    {
-        "question": "Az inverterek a logikai tagadás megvalósítására szolgálnak.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai függvények algebrai egyszerűsítése mindig megőrzi a kifejezés logikai értékét.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A logikai hálózatok működését a Boole-algebra teljes mértékben leírja.",
-        "answer": "igaz"
-    },
-    {
-        "question": "A NAND kapuk felhasználásával nem valósítható meg minden logikai művelet.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A logikai 'VAGY' művelet disztributív a 'tagadás' műveletére nézve.",
-        "answer": "hamis"
-    },
-    {
-        "question": "A Karnaugh-tábla szomszédos mezői geometriai összefüggéseket jelölnek.",
-        "answer": "igaz"
+        "question": "A NAND kapu nem képes az inverter funkcióját ellátni.",
+        "answer": "hamis",
+        "reason": "A NAND kapu inverterként is használható."
     },
     {
         "question": "A Boole-algebra dualitási elve minden logikai műveletre alkalmazható.",
-        "answer": "igaz"
+        "answer": "igaz",
+        "reason": "Ez az elv általános érvényű."
     },
     {
-        "question": "A digitális hálózatok működéséhez analóg jelek közvetlenül is használhatók.",
-        "answer": "hamis"
+        "question": "A logikai hálózatok működése kizárólag az időfüggő változásokon alapul.",
+        "answer": "hamis",
+        "reason": "A kombinációs hálózatok időfüggetlenek."
     },
     {
-        "question": "Az egyváltozós logikai függvények mindig tartalmaznak negált értékeket.",
-        "answer": "hamis"
+        "question": "Az igazságtáblázatok minden bemeneti kombinációhoz pontos kimeneti értéket rendelnek.",
+        "answer": "igaz",
+        "reason": "Ez az igazságtáblázatok célja."
     },
     {
-        "question": "Az analóg hálózatoknál a kimeneti értékek nem korlátozódnak diszkrét szintekre.",
-        "answer": "igaz"
+        "question": "A Karnaugh-tábla mezői mindig kétdimenziós elrendezésben vannak.",
+        "answer": "igaz",
+        "reason": "A tábla kétdimenziós elrendezést használ."
     },
     {
-        "question": "A digitális hálózatok kétértékű rendszert használnak a jelek feldolgozásához.",
-        "answer": "igaz"
+        "question": "Az analóg hálózatok működése diszkrét bemeneti értékeken alapul.",
+        "answer": "hamis",
+        "reason": "Az analóg hálózatok folytonos jeleket használnak."
     },
     {
-        "question": "A logikai szorzás műveletét a 'VAGY' művelet szimbóluma jelöli.",
-        "answer": "hamis"
+        "question": "A NAND kapuk kizárólag pozitív logikai hálózatokban használhatók.",
+        "answer": "hamis",
+        "reason": "A NAND kapuk negatív logikában is működnek."
     },
     {
-        "question": "A Quine-módszer során mindig az irredundáns prímimplikánsokat keressük.",
-        "answer": "igaz"
+        "question": "A logikai kapuszintű tervezés során az IEEE szabványok irányadóak.",
+        "answer": "igaz",
+        "reason": "Az IEEE szabványok irányítják a tervezést."
     },
     {
-        "question": "A Karnaugh-táblák szerkesztésénél a változók bináris kombinációi határozzák meg a mezők elrendezését.",
-        "answer": "igaz"
+        "question": "A Quine-McCluskey módszer csak kézi ábrázolásra alkalmas.",
+        "answer": "hamis",
+        "reason": "A módszer számítógépesíthető is."
     },
     {
-        "question": "A Boole-algebra idempotencia törvénye biztosítja, hogy A • A = A.",
-        "answer": "igaz"
+        "question": "A Boole-algebra minden logikai hálózat alapját képezi.",
+        "answer": "igaz",
+        "reason": "A Boole-algebra a logikai rendszerek alapja."
     },
     {
-        "question": "A kombinációs hálózatok kimeneti értékei közvetlenül függenek az időbeli változásoktól.",
-        "answer": "hamis"
+        "question": "Az inverter kapu kimenete mindig megegyezik a bemenetével.",
+        "answer": "hamis",
+        "reason": "Az inverter a bemenet negáltját adja."
     },
     {
-        "question": "A logikai függvények egyszerűsítése során minden prímimplikánst meg kell tartani.",
-        "answer": "hamis"
+        "question": "Az XOR művelet csak akkor ad 1-et, ha a bemenetek azonosak.",
+        "answer": "hamis",
+        "reason": "Az XOR csak eltérő bemeneteknél ad 1-et."
     },
     {
-        "question": "Az analóg hálózatokban a jelek folyamatos változásúak.",
-        "answer": "igaz"
+        "question": "A Karnaugh-tábla minimalizálás céljából használt eszköz.",
+        "answer": "igaz",
+        "reason": "A tábla az egyszerűsítést segíti."
     },
     {
-        "question": "A logikai kapuszintű hálózatok tervezésekor figyelembe kell venni az európai és IEEE szabványokat.",
-        "answer": "igaz"
+        "question": "A logikai függvények egyszerűsítése mindig csökkenti a változók számát.",
+        "answer": "hamis",
+        "reason": "Az egyszerűsítés nem garantálja a változók csökkenését."
     },
     {
-        "question": "A NEM kapu csak több bemenet esetén használható.",
-        "answer": "hamis"
+        "question": "A NAND kapuk tisztán használva bármilyen logikai hálózatot megvalósíthatnak.",
+        "answer": "igaz",
+        "reason": "A NAND kapuk univerzálisak."
     },
     {
-        "question": "A De-Morgan azonosságok a logikai kapuk egyszerűsített ábrázolását is lehetővé teszik.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok időfüggetlen működésűek.",
+        "answer": "igaz",
+        "reason": "Ezek nem tartalmaznak időzítést."
     },
     {
-        "question": "A Quine-McCluskey módszer algoritmusa nem számítógépesíthető.",
-        "answer": "hamis"
+        "question": "A De-Morgan azonosságok kizárólag NAND kapukkal érvényesek.",
+        "answer": "hamis",
+        "reason": "Az azonosságok általánosan érvényesek."
     },
     {
-        "question": "A NAND kapu egyaránt képes az 'ÉS' és a 'NEM' művelet megvalósítására.",
-        "answer": "igaz"
+        "question": "A Boole-algebra kommutativitási törvénye lehetővé teszi a változók sorrendjének megváltoztatását.",
+        "answer": "igaz",
+        "reason": "Ez a kommutativitás alapelve."
     },
     {
-        "question": "Az analóg-digitális átalakítók nem szükségesek a digitális hálózatok működéséhez.",
-        "answer": "hamis"
+        "question": "A Karnaugh-táblák szomszédos mezőinek geometriai összefüggései vannak.",
+        "answer": "igaz",
+        "reason": "A geometria segíti az egyszerűsítést."
     },
     {
-        "question": "A logikai függvények algebrai alakja minden lehetséges bemeneti kombinációt leír.",
-        "answer": "igaz"
+        "question": "A XOR kapu minden bemeneti kombináció esetén 1-et ad.",
+        "answer": "hamis",
+        "reason": "Csak különböző bemeneteknél ad 1-et."
     },
     {
-        "question": "A logikai 'VAGY' kapu értéke 0, ha mindkét bemenet 1.",
-        "answer": "hamis"
+        "question": "A logikai hálózatok minden esetben kombinációs hálózatok.",
+        "answer": "hamis",
+        "reason": "Léteznek szekvenciális hálózatok is."
     },
     {
-        "question": "A Karnaugh-táblák lehetővé teszik a logikai műveletek vizuális egyszerűsítését.",
-        "answer": "igaz"
+        "question": "Az inverterek kizárólag pozitív logikában működnek.",
+        "answer": "hamis",
+        "reason": "Az inverter mindkét logikában működik."
     },
     {
-        "question": "Az igazságtáblázatok nem használhatók nem teljesen specifikált logikai függvények esetén.",
-        "answer": "hamis"
+        "question": "A Quine-módszer algoritmusának célja a logikai függvény egyszerűsítése.",
+        "answer": "igaz",
+        "reason": "A módszer az egyszerűsítésre szolgál."
     },
     {
-        "question": "Az inverterek a logikai tagadás műveletét hajtják végre.",
-        "answer": "igaz"
+        "question": "A Boole-algebra szabályai között nincs helye a dualitási elvnek.",
+        "answer": "hamis",
+        "reason": "A dualitási elv fontos része a Boole-algebrának."
     },
     {
-        "question": "A logikai hálózatok működéséhez nem szükségesek logikai kapuk.",
-        "answer": "hamis"
+        "question": "A logikai 'ÉS' művelet kimenete csak akkor 1, ha minden bemenet 1.",
+        "answer": "igaz",
+        "reason": "Ez az 'ÉS' művelet alapelve."
     },
     {
-        "question": "Az XOR kapu egyenértékű az antivalencia művelettel.",
-        "answer": "igaz"
+        "question": "A logikai kapuk szimbólumai nemzetközileg egységesek.",
+        "answer": "hamis",
+        "reason": "A szimbólumok eltérhetnek a szabványok között."
     },
     {
-        "question": "A Boole-algebra kommutativitási szabálya lehetővé teszi a változók sorrendjének megváltoztatását.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok nem tartalmaznak memóriaelemeket.",
+        "answer": "igaz",
+        "reason": "A kombinációs hálózatok memória nélkül működnek."
     },
     {
-        "question": "A kombinációs hálózatok csak teljes mértékben specifikált bemenetekkel működnek.",
-        "answer": "hamis"
+        "question": "A Boole-algebra lehetővé teszi logikai kifejezések algebrai egyszerűsítését.",
+        "answer": "igaz",
+        "reason": "A Boole-algebra az egyszerűsítés alapja."
     },
     {
-        "question": "A Karnaugh-táblák peremezésének szabályai a változók logikai csoportosításán alapulnak.",
-        "answer": "igaz"
+        "question": "A XOR művelet kimenete mindig 1, ha a bemenetek azonosak.",
+        "answer": "hamis",
+        "reason": "A XOR kimenete 0, ha a bemenetek azonosak."
     },
     {
-        "question": "A logikai hálózatok grafikus vázlatai segítik a kapuszintű megvalósítás megértését.",
-        "answer": "igaz"
+        "question": "A Karnaugh-tábla segíti az irredundáns prímimplikánsok meghatározását.",
+        "answer": "igaz",
+        "reason": "A Karnaugh-tábla az egyszerűsítést szolgálja."
     },
     {
-        "question": "Az analóg hálózatok digitális bemeneti jelekkel is működhetnek.",
-        "answer": "hamis"
+        "question": "Az igazságtáblázat minden kombinációhoz egyértelmű kimenetet rendel.",
+        "answer": "igaz",
+        "reason": "Ez az igazságtáblázat célja."
     },
     {
-        "question": "A logikai szomszédosság azonos az igazságtáblázatok kimeneti szomszédosságával.",
-        "answer": "hamis"
+        "question": "A kombinációs hálózatok mindig tartalmaznak időzítési elemeket.",
+        "answer": "hamis",
+        "reason": "Időzítési elemek nem szükségesek."
     },
     {
-        "question": "A Karnaugh-táblák egyszerűsítésére csak a Hamming-távolság használható.",
-        "answer": "hamis"
+        "question": "A logikai 'ÉS' és 'VAGY' műveletek között nincs kapcsolat a Boole-algebrában.",
+        "answer": "hamis",
+        "reason": "A 'ÉS' és 'VAGY' kapcsolata szabályozott."
     },
     {
-        "question": "Az igazságtáblázat minden bemeneti értékhez kimeneti értéket rendel.",
-        "answer": "igaz"
+        "question": "A logikai tagadás kimenete az eredeti bemenet tagadása.",
+        "answer": "igaz",
+        "reason": "Ez a tagadás alapelve."
     },
     {
-        "question": "A kombinációs hálózatok mindig időfüggetlen működésűek.",
-        "answer": "igaz"
+        "question": "A NAND kapu kimenete csak akkor lesz 1, ha a bemenetek 1 értéket vesznek fel.",
+        "answer": "hamis",
+        "reason": "A NAND kimenete 0, ha minden bemenet 1."
     },
     {
-        "question": "A mintermek az igazságtáblázat '0' értékeit reprezentálják.",
-        "answer": "hamis"
+        "question": "A Boole-algebra alapelvei függetlenek a logikai hálózatok működésétől.",
+        "answer": "hamis",
+        "reason": "A Boole-algebra az alapja a működésnek."
     },
     {
-        "question": "Az inverter kapu a bemenet tagadását hajtja végre.",
-        "answer": "igaz"
+        "question": "A mintermek az igazságtáblázatban az 1 értékű soroknak felelnek meg.",
+        "answer": "igaz",
+        "reason": "A mintermek az '1' értékek alapján definiáltak."
     },
     {
-        "question": "A kombinációs hálózatok minden lehetséges kimeneti értékét specifikálni kell.",
-        "answer": "hamis"
+        "question": "A XOR kapuk kizárólag páratlan számú bemenettel működnek.",
+        "answer": "hamis",
+        "reason": "A XOR bármilyen számú bemenettel működhet."
     },
     {
-        "question": "A XOR kapuk felhasználhatók komplex logikai hálózatok tervezésére.",
-        "answer": "igaz"
+        "question": "Az igazságtáblázat kizárólag bináris logikai hálózatokra alkalmazható.",
+        "answer": "hamis",
+        "reason": "Más típusú hálózatokra is használható."
     },
     {
-        "question": "A logikai kapuszintű hálózatok tervezésekor a Hamming-távolság segíti az egyszerűsítést.",
-        "answer": "igaz"
+        "question": "A logikai 'ÉS' művelet kimenete csak akkor 1, ha minden bemenet 1.",
+        "answer": "igaz",
+        "reason": "Ez az 'ÉS' művelet alapelve."
     },
     {
-        "question": "A Boole-algebra használatával minden digitális hálózat működése modellezhető.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok bemenetei folyamatos jeleket képviselnek.",
+        "answer": "hamis",
+        "reason": "A bemenetek diszkrétek."
     },
     {
-        "question": "A logikai hálózatok mindig egykimenetűek.",
-        "answer": "hamis"
+        "question": "A NAND kapukkal kizárólag 'ÉS' műveletek valósíthatók meg.",
+        "answer": "hamis",
+        "reason": "A NAND kapu univerzális."
     },
     {
-        "question": "Az analóg-digitális átalakítók a központi egység által előállított jeleket analogizálják.",
-        "answer": "hamis"
+        "question": "A Karnaugh-tábla vizuális eszköz a logikai kifejezések egyszerűsítésére.",
+        "answer": "igaz",
+        "reason": "A Karnaugh-tábla a vizuális egyszerűsítés eszköze."
     },
     {
-        "question": "A Quine-McCluskey módszer előfutára volt a modern számítógépes logikai szintézisnek.",
-        "answer": "igaz"
+        "question": "A XOR művelet asszociatív.",
+        "answer": "hamis",
+        "reason": "A XOR művelet nem asszociatív."
     },
     {
-        "question": "Az XOR kapu 0-t ad, ha a bemenetek azonosak.",
-        "answer": "igaz"
+        "question": "Az irredundáns prímimplikánsok minimalizálják a logikai kifejezéseket.",
+        "answer": "igaz",
+        "reason": "Az irredundancia az egyszerűsítést szolgálja."
     },
     {
-        "question": "A Karnaugh-táblákban az irredundáns prímimplikánsok közvetlenül felismerhetők.",
-        "answer": "igaz"
+        "question": "A De-Morgan azonosságok a logikai függvények átalakítására használhatók.",
+        "answer": "igaz",
+        "reason": "Az azonosságok átalakítást tesznek lehetővé."
     },
     {
-        "question": "A Boole-algebra alapja a kétértékű logikai rendszerek.",
-        "answer": "igaz"
+        "question": "A logikai 'ÉS' művelet kimenete 1, ha legalább egy bemenet 1.",
+        "answer": "hamis",
+        "reason": "Az 'ÉS' kimenete csak minden bemeneti 1 esetén 1."
     },
     {
-        "question": "Az analóg hálózatok működése a diszkrét logikai rendszerek alapja.",
-        "answer": "hamis"
+        "question": "Az igazságtáblázat használatával minden logikai hálózat definiálható.",
+        "answer": "igaz",
+        "reason": "Az igazságtáblázat minden kombinációt lefed."
     },
     {
-        "question": "A logikai 'VAGY' művelet értéke mindig 1, ha bármelyik bemenet 1.",
-        "answer": "igaz"
+        "question": "A NAND kapuk nem képesek megvalósítani a logikai tagadást.",
+        "answer": "hamis",
+        "reason": "A NAND kapu képes tagadást megvalósítani."
     },
     {
-        "question": "A De-Morgan azonosságok segítségével bármely logikai függvény átalakítható.",
-        "answer": "igaz"
+        "question": "A kombinációs hálózatok tervezése kizárólag a Karnaugh-táblákra támaszkodik.",
+        "answer": "hamis",
+        "reason": "Más tervezési módszerek is léteznek."
+    },
+    {
+        "question": "A XOR kapu kimenete 1, ha a bemenetek különbözőek.",
+        "answer": "igaz",
+        "reason": "Ez a XOR kapu alapelve."
+    },
+    {
+        "question": "A logikai kapuk működése nem függ a bemenetek állapotától.",
+        "answer": "hamis",
+        "reason": "A kapuk kimenete a bemenetek függvénye."
+    },
+    {
+        "question": "A Karnaugh-tábla mezői a logikai változók kombinációit ábrázolják.",
+        "answer": "igaz",
+        "reason": "A mezők a kombinációkat reprezentálják."
+    },
+    {
+        "question": "A Boole-algebra törvényei közé tartozik az asszociativitás.",
+        "answer": "igaz",
+        "reason": "Az asszociativitás a Boole-algebra része."
+    },
+    {
+        "question": "A NAND kapu kimenete mindig azonos a bemenetek értékével.",
+        "answer": "hamis",
+        "reason": "A NAND az 'ÉS' tagadása."
+    },
+    {
+        "question": "A logikai 'VAGY' művelet disztributív az 'ÉS' műveletre nézve.",
+        "answer": "hamis",
+        "reason": "A disztributivitás csak fordítva igaz."
+    },
+    {
+        "question": "Az analóg-digitális átalakítók bináris jeleket állítanak elő.",
+        "answer": "igaz",
+        "reason": "Az átalakítók bináris kimenetet adnak."
+    },
+    {
+        "question": "A XOR művelet kimenete csak akkor 0, ha minden bemenet 1.",
+        "answer": "hamis",
+        "reason": "A kimenet akkor 0, ha a bemenetek azonosak."
+    },
+    {
+        "question": "A logikai függvények egyszerűsítésére többféle módszer létezik.",
+        "answer": "igaz",
+        "reason": "Számos módszer használható egyszerűsítésre."
+    },
+    {
+        "question": "A kombinációs hálózatok időfüggetlenek.",
+        "answer": "igaz",
+        "reason": "A kimenet csak a bemenetektől függ."
+    },
+    {
+        "question": "A Karnaugh-tábla csak kétváltozós logikai függvényekhez használható.",
+        "answer": "hamis",
+        "reason": "Többváltozós függvényekhez is alkalmazható."
+    },
+    {
+        "question": "A logikai 'ÉS' művelet kimenete 0, ha bármely bemenet 0.",
+        "answer": "igaz",
+        "reason": "Ez az 'ÉS' művelet alapelve."
+    },
+    {
+        "question": "A NAND kapu kimenete csak akkor 0, ha minden bemenet 0.",
+        "answer": "hamis",
+        "reason": "A NAND 0 kimenetet ad, ha minden bemenet 1."
+    },
+    {
+        "question": "Az irredundáns prímimplikánsok kizárólag az '1' értékű mintermekből képződnek.",
+        "answer": "igaz",
+        "reason": "Az irredundáns prímek csak az '1' értékeken alapulnak."
+    },
+    {
+        "question": "A De-Morgan azonosságokkal minden logikai kifejezés egyszerűsíthető.",
+        "answer": "igaz",
+        "reason": "Az azonosságok segítenek az egyszerűsítésben."
+    },
+    {
+        "question": "A XOR kapuk csak páratlan számú bemenettel működnek.",
+        "answer": "hamis",
+        "reason": "A XOR bármilyen számú bemenettel működhet."
+    },
+    {
+        "question": "Az igazságtáblázatok minden bemenetet lefednek a kimenetek meghatározásához.",
+        "answer": "igaz",
+        "reason": "Ez az igazságtáblázatok célja."
+    },
+    {
+        "question": "A kombinációs hálózatok bemenetei folyamatos jeleket képviselnek.",
+        "answer": "hamis",
+        "reason": "A bemenetek diszkrétek."
+    },
+    {
+        "question": "A NAND kapu univerzális logikai kapu, amellyel minden művelet megvalósítható.",
+        "answer": "igaz",
+        "reason": "A NAND kapu minden logikai művelet alapja lehet."
     }
 ]
 }
