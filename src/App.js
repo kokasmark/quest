@@ -8,6 +8,7 @@ import EmojiParticle from './Particles';
 import ArchVizsga from './static/ArchVizsga.json';
 import ArchVizsgaZh1 from './static/ArchVizsgaZh1.json';
 import ArchVizsgaZh2 from './static/ArchVizsgaZh2.json';
+import DLRVizsga from './static/DLRVizsga.json';
 
 function App() {
   const [file, setFile] = useState(null);
@@ -51,6 +52,8 @@ function App() {
 
   useEffect(() => {
     spawnParticles("👋", 20);
+
+    loadStaticFile(DLRVizsga);
     loadStaticFile(ArchVizsga);
     loadStaticFile(ArchVizsgaZh1);
     loadStaticFile(ArchVizsgaZh2);
